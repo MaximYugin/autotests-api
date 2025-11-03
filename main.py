@@ -1,2 +1,2 @@
-print("Hello, PyCharm!")
-print("Hello, PysasCharm!")
+print("Hello, PhhgyCharm!")
+print("Hello, PysasfghfCharm!")
