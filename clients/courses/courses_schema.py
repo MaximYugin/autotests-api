@@ -14,11 +14,11 @@ class CourseSchema(BaseModel):
 
     id: str
     title: str
-    maxScore: int | None
-    minScore: int | None
+    max_score: int | None = Field(alias="maxScore")
+    min_score: int | None = Field(alias="minScore")
     description: str
     preview_file: FileSchema = Field(alias="previewFile")  # Вложенная структура файла
-    estimatedTime: str | None
+    estimated_time: str | None = Field(alias="estimatedTime")
     created_by_user: UserSchema = Field(alias="createdByUser")  # Вложенная структура пользователя
 
 
@@ -29,10 +29,6 @@ class GetCoursesQuerySchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     user_id: str = Field(alias="userId")
-
-
-class GetCoursesResponseSchema(BaseModel):
-    courses: List[CourseSchema]
 
 
 class CreateCourseRequestSchema(BaseModel):
@@ -83,3 +79,17 @@ class UpdateCourseRequestSchema(BaseModel):
 
 class GetCourseResponseSchema(BaseModel):
     course: CourseSchema
+
+# Остальной код без изменений
+
+class UpdateCourseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа обновления курса.
+    """
+    course: CourseSchema
+
+class GetCoursesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение списка курсов.
+    """
+    courses: list[CourseSchema]
