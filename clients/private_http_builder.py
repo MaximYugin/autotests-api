@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from clients.authentication.authentication_client import get_authentication_client
 # Импортируем модель LoginRequestSchema
 from clients.authentication.authentication_schema import LoginRequestSchema
-from clients.event_hooks import curl_event_hook  # Импортируем event hook
+from clients.event_hooks import curl_event_hook, log_request_event_hook, log_response_event_hook  # Импортируем event hook
 from config import settings  # Импортируем настройки
 
 
@@ -30,5 +30,8 @@ def get_private_http_client(user: AuthenticationUserSchema) -> Client:
         base_url=settings.http_client.client_url,  # Используем значение адреса сервера из настроек
         # Значения теперь извлекаем не по ключу, а через атрибуты
         headers={"Authorization": f"Bearer {login_response.token.access_token}"},
-        event_hooks={"request": [curl_event_hook]}
+        event_hooks={
+            "request": [curl_event_hook, log_request_event_hook],  # Логируем исходящие HTTP-запросы
+            "response": [log_response_event_hook]  # Логируем полученные HTTP-ответы
+        }
     )
