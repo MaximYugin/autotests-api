@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjA2OjA1LjY0MjM0MiIsInVzZXJfaWQiOiI2NmYzMTgwNS1kYmY2LTRjZjYtOTQyYy0zZDk0MDk0YjRkM2QifQ.3lf4nWPj6I3KHZHK3I7xKQiugRoV5l_1DAGGnDp3M9E' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Body he civil quite dinner might challenge.","maxScore":66,"minScore":19,"description":"Anything charge itself why person billion president concern. Help analysis across court. Medical dark lot least the each. Shoulder outside dinner nor defense.","estimatedTime":"3 weeks","previewFileId":"97594502-585d-4dc4-b7e3-46a10862c447","createdByUserId":"66f31805-dbf6-4cf6-942c-3d94094b4d3d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjA2OjA1LjM4MTAzNiIsInVzZXJfaWQiOiIxOWZkZmM4Zi0yY2IyLTRmYzktYmM0ZS00ZmM1NGFlNTFjOTYifQ.1WUfr2T0auDqCIAMcXAx_FdUo-Bq09OCOty-z5FFTms' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Improve meet really short section which.","maxScore":58,"minScore":14,"description":"Decision turn many system get scene a. Recognize beautiful century possible many heart away.\nDoor move suddenly. Week group last change worker tree. Choose speak father middle quite.","estimatedTime":"2 weeks","previewFileId":"67f8a443-8bf5-486c-b3bf-ab21bfc8c414","createdByUserId":"19fdfc8f-2cb2-4fc9-bc4e-4fc54ae51c96"}'

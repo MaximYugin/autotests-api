@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjA2OjAzLjM3OTAyNSIsInVzZXJfaWQiOiJiZmY0N2Q2ZS1iY2MwLTRkNzAtYWRkNS1jMmViNDEzZWVhMWIifQ.h0R2KvIhxqEyP79VvZl1Hmd9HySxgcP09IMhc7kUFGY' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fight six argue age ball issue.","maxScore":57,"minScore":1,"description":"Decade assume physical like national kid. Effort large history strong. Could against example nation second before.","estimatedTime":"10 weeks","previewFileId":"23164dd6-75e4-4891-a6aa-7d58f8f494ca","createdByUserId":"bff47d6e-bcc0-4d70-add5-c2eb413eea1b"}'

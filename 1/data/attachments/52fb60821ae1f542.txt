@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjA2OjAzLjExODU1NyIsInVzZXJfaWQiOiJmY2FhNmU3Ni00MWFiLTRlMjAtYjljMS1lNjVlMzdlYmIwMjYifQ.G_nyI9nHBUSW_IODUAeMmUhO2FxquMAWZ7Yb4tKgJBo' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pull available believe girl away outside away.","maxScore":86,"minScore":6,"description":"With guy social pattern important collection indeed. Nice include middle image evidence.\nProgram gas tell establish quickly recent project. Design generation best effort.","estimatedTime":"3 weeks","previewFileId":"829e5b1c-7188-496c-bca6-0264d49692ad","createdByUserId":"fcaa6e76-41ab-4e20-b9c1-e65e37ebb026"}'

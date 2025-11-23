@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjA2OjA2LjU0NDM5MSIsInVzZXJfaWQiOiIyNTdhODg5YS0xNWE2LTQxN2ItYTg2My1iZTEyYzI0YWY4OGQifQ.WhjS_QXSbOlZWC92kLYV4HoPMAVz9GqQZmBpCfgbUTg' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Room environment easy series.","maxScore":81,"minScore":14,"description":"Deep his world your serve the why lay. Avoid bill clearly base their as instead.\nSite word group receive hot everything. Detail who wrong if rate light next.","estimatedTime":"8 weeks","previewFileId":"5f790752-a5a0-4121-a7b3-71d8cb659626","createdByUserId":"257a889a-15a6-417b-a863-be12c24af88d"}'

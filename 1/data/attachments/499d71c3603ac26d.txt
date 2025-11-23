@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjA2OjAyLjAzNTMwOCIsInVzZXJfaWQiOiIzYWM1YmVhNi05NWJjLTQ4YzktYTc4ZC1kZDMxYzU0Yjg3NTcifQ.-8uUSR2VWAtbFry3LhVOiTc2t19ya9VJENQC_VgLmZc' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Painting seem chair base entire discussion.","maxScore":66,"minScore":11,"description":"Against do stage provide accept modern population. Finish of support conference fine wrong.\nEven small stuff sort past hit. Ground by morning resource high of.","estimatedTime":"7 weeks","previewFileId":"61c896e9-5ec1-4eaa-be1b-1df17273632c","createdByUserId":"3ac5bea6-95bc-48c9-a78d-dd31c54b8757"}'

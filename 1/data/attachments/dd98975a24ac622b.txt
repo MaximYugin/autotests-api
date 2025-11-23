@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/courses?userId=3ac5bea6-95bc-48c9-a78d-dd31c54b8757
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=3ac5bea6-95bc-48c9-a78d-dd31c54b8757
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:courses.py:79 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:75 Check that length of "courses" equals to 1
+INFO     COURSE_ASSERTIONS:courses.py:53 Check course
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 4c0ce58f-52e6-4455-a486-9b2e90fbd8f7
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Painting seem chair base entire discussion.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 66
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 11
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Against do stage provide accept modern population. Finish of support conference fine wrong.
+Even small stuff sort past hit. Ground by morning resource high of.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 7 weeks
+INFO     FILES_ASSERTIONS:files.py:42 Check file
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 61c896e9-5ec1-4eaa-be1b-1df17273632c
+INFO     BASE_ASSERTIONS:base.py:36 Check that "url" equals to http://localhost:8000/static/tests/d6c5e0d4-8e80-4feb-b2eb-9fdbfb5629cc.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "filename" equals to d6c5e0d4-8e80-4feb-b2eb-9fdbfb5629cc.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:36 Check user
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 3ac5bea6-95bc-48c9-a78d-dd31c54b8757
+INFO     BASE_ASSERTIONS:base.py:36 Check that "email" equals to guzmanapril@example.com
+INFO     BASE_ASSERTIONS:base.py:36 Check that "last_name" equals to Mccullough
+INFO     BASE_ASSERTIONS:base.py:36 Check that "first_name" equals to Andrew
+INFO     BASE_ASSERTIONS:base.py:36 Check that "middle_name" equals to April
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/37932e53-cc3f-4eb9-ad75-a1f11b481551' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjA2OjAzLjExODU1NyIsInVzZXJfaWQiOiJmY2FhNmU3Ni00MWFiLTRlMjAtYjljMS1lNjVlMzdlYmIwMjYifQ.G_nyI9nHBUSW_IODUAeMmUhO2FxquMAWZ7Yb4tKgJBo' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"West recently Mr truth rich expert political.","maxScore":93,"minScore":1,"description":"Door peace once sea.\nDoor leave mouth be name term. Dark ask thus her much. Run no almost serve allow.\nResearch like toward. Tonight staff fund room politics before. Something those lawyer.","estimatedTime":"5 weeks"}'

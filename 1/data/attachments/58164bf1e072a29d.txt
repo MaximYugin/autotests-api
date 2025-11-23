@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjA2OjA1LjY0MjM0MiIsInVzZXJfaWQiOiI2NmYzMTgwNS1kYmY2LTRjZjYtOTQyYy0zZDk0MDk0YjRkM2QifQ.3lf4nWPj6I3KHZHK3I7xKQiugRoV5l_1DAGGnDp3M9E' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Option whatever may house maybe later.","courseId":"cb4a7675-00fa-475e-92df-dcf2276a59d0","maxScore":72,"minScore":5,"orderIndex":56,"description":"Whatever need question before. Feeling call walk cover commercial business water. Firm lay also type issue keep.","estimatedTime":"5 weeks"}'

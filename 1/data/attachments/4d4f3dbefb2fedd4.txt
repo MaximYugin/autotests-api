@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make PATCH request to http://localhost:8000/api/v1/courses/37932e53-cc3f-4eb9-ad75-a1f11b481551
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/37932e53-cc3f-4eb9-ad75-a1f11b481551
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:courses.py:26 Check update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to West recently Mr truth rich expert political.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 93
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Door peace once sea.
+Door leave mouth be name term. Dark ask thus her much. Run no almost serve allow.
+Research like toward. Tonight staff fund room politics before. Something those lawyer.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
