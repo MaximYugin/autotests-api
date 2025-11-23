@@ -2,106 +2,59 @@ import allure
 from httpx import Response
 
 from clients.api_client import APIClient
-from clients.exercises.exercises_schema import GetExercisesQuerySchema, CreateExerciseRequestSchema, \
-    UpdateExerciseRequestSchema, GetExerciseResponseSchema, GetExercisesResponseSchema, CreateExerciseResponseSchema, \
-    UpdateExerciseResponseSchema
+from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 from tools.routes import APIRoutes
 
 
-class ExercisesClient(APIClient):
+class FilesClient(APIClient):
     """
-    Клиент для работы с /api/v1/exercises
+    Клиент для работы с /api/v1/files
     """
-    @allure.step("Get exercises")
-    def get_exercises_api(self, query: GetExercisesQuerySchema) -> Response:
-        """
-        Метод получения упражнений
-        :param query: словарь с courseId
-        :return: ответ от сервера вида httpx.Response
-        """
-        return self.get(APIRoutes.EXERCISES, params=query.model_dump(by_alias=True))
 
-    @allure.step("Create exercise")
-    def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
+    @allure.step("Get file by id {file_id}")
+    def get_file_api(self, file_id: str) -> Response:
         """
-        Метод создания упражнения
-        :param request: словарь с title, courseId, maxScore, minScore, orderIndex, description, estimatedTime
-        :return: ответ от сервера вида httpx.Response
-        """
-        return self.post(APIRoutes.EXERCISES, json=request.model_dump(by_alias=True))
+        Метод получения файла.
 
-    @allure.step("Get exercise")
-    def get_exercise_api(self, exercise_id: str) -> Response:
+        :param file_id: Идентификатор файла.
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
-        Метод получения упражнения
-        :param exercise_id: Идентификатор упражнения
-        :return: ответ от сервера вида httpx.Response
-        """
-        return self.get(f"{APIRoutes.EXERCISES}/{exercise_id}")
+        return self.get(f"{APIRoutes.FILES}/{file_id}")
 
-    @allure.step("Update exercise")
-    def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> Response:
+    @allure.step("Create file")
+    def create_file_api(self, request: CreateFileRequestSchema) -> Response:
         """
-        Метод обновления упражнения
-        :param exercise_id: Идентификатор упражнения
-        :param request: Словарь с title, maxScore, minScore, orderIndex, description, estimatedTime
-        :return: ответ от сервера вида httpx.Response
-        """
-        return self.patch(f"{APIRoutes.EXERCISES}/{exercise_id}", json=request.model_dump(by_alias=True))
+        Метод создания файла.
 
-    @allure.step("Delete exercise")
-    def delete_exercise_api(self, exercise_id: str) -> Response:
+        :param request: Словарь с filename, directory, upload_file.
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
-        Метод удаления упражнения
-        :param exercise_id: Идентификатор упражнения
-        :return: ответ от сервера вида httpx.Response
-        """
-        return self.delete(f"{APIRoutes.EXERCISES}/{exercise_id}")
+        return self.post(
+            APIRoutes.FILES,
+            data=request.model_dump(by_alias=True, exclude={'upload_file'}),
+            files={"upload_file": request.upload_file.read_bytes()}
+        )
 
-    def get_exercise(self, exercise_id: str) -> GetExerciseResponseSchema:
+    @allure.step("Delete file by id {file_id}")
+    def delete_file_api(self, file_id: str) -> Response:
         """
-        Метод получения упражнения
-        :param exercise_id: Идентификатор упражнения
-        :return: ответ от сервера вида httpx.Response
-        """
-        response = self.get_exercise_api(exercise_id)
-        return GetExerciseResponseSchema.model_validate_json(response.text)
+        Метод удаления файла.
 
-    def get_exercises(self, query: GetExercisesQuerySchema) -> GetExercisesResponseSchema:
+        :param file_id: Идентификатор файла.
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
-        Метод получения упражнений
-        :param query: словарь с courseId
-        :return: ответ от сервера вида httpx.Response
-        """
-        response = self.get_exercises_api(query)
-        return GetExercisesResponseSchema.model_validate_json(response.text)
+        return self.delete(f"{APIRoutes.FILES}/{file_id}")
 
-    def create_exercise(self, request: CreateExerciseRequestSchema) -> CreateExerciseResponseSchema:
-        """
-        Метод создания упражнения
-        :param request: словарь с title, courseId, maxScore, minScore, orderIndex, description, estimatedTime
-        :return: ответ от сервера вида httpx.Response
-        """
-        response = self.create_exercise_api(request)
-        return CreateExerciseResponseSchema.model_validate_json(response.text)
-
-    def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> UpdateExerciseResponseSchema:
-        """
-        Метод обновления упражнения
-        :param exercise_id: Идентификатор упражнения
-        :param request: Словарь с title, maxScore, minScore, orderIndex, description, estimatedTime
-        :return: ответ от сервера вида httpx.Response
-        """
-        response = self.update_exercise_api(exercise_id, request)
-        return UpdateExerciseResponseSchema.model_validate_json(response.text)
+    def create_file(self, request: CreateFileRequestSchema) -> CreateFileResponseSchema:
+        response = self.create_file_api(request)
+        return CreateFileResponseSchema.model_validate_json(response.text)
 
 
-# Добавляем builder для ExercisesClient
-def get_exercises_client(user: AuthenticationUserSchema) -> ExercisesClient:
+def get_files_client(user: AuthenticationUserSchema) -> FilesClient:
     """
-    Функция создаёт экземпляр PrivateUsersClient с уже настроенным HTTP-клиентом.
+    Функция создаёт экземпляр FilesClient с уже настроенным HTTP-клиентом.
 
-    :return: Готовый к использованию PrivateUsersClient.
+    :return: Готовый к использованию FilesClient.
     """
-    return ExercisesClient(client=get_private_http_client(user))
+    return FilesClient(client=get_private_http_client(user))
