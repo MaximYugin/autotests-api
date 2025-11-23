@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/5962927b-ce15-4577-b13b-be34eb5be3a0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjI2OjEwLjQzMDQzNyIsInVzZXJfaWQiOiI0YTQ4OWMyZi1kYjcxLTQzODgtOGJlOC1mNGRhYmE1Y2ViODIifQ.Z9m3vFEKHpEHuFyrJHWUxzedlgNmun0TptYA9-GoMrM' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everything produce west risk member often three subject.","maxScore":93,"minScore":26,"orderIndex":1,"description":"Foot situation past draw instead budget begin including. Fire soldier between home allow return feeling allow. Public let build town statement entire want.","estimatedTime":"1 weeks"}'

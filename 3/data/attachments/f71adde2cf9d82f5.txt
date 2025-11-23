@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjI2OjEwLjQzMDQzNyIsInVzZXJfaWQiOiI0YTQ4OWMyZi1kYjcxLTQzODgtOGJlOC1mNGRhYmE1Y2ViODIifQ.Z9m3vFEKHpEHuFyrJHWUxzedlgNmun0TptYA9-GoMrM' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Condition line bank stop.","maxScore":50,"minScore":12,"description":"Other officer hit star wide class. Rest difference follow product outside product or. No personal begin something happen detail as.","estimatedTime":"7 weeks","previewFileId":"8634c8e4-27ba-401d-8856-9bc35110104b","createdByUserId":"4a489c2f-db71-4388-8be8-f4daba5ceb82"}'

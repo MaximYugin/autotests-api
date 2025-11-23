@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c7d2b649-5835-4b36-af58-ac8278e719cd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjI2OjA4Ljk3MDM2OCIsInVzZXJfaWQiOiIxZWVlMWU5Ni01MGU3LTRlODAtYWM3MC1lMTI2MzYwMzMyYzIifQ.5BEBo8cdtH1hYHOswYAT8AsrY6cRFn9pSfZMqYwPnRo' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quality investment word food walk cup her skill.","maxScore":71,"minScore":30,"description":"Bring believe near treat almost hard event. Painting great relationship call their situation. Weight so speak quite office glass.\nEnjoy kind money. Office after half.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjI2OjExLjM0OTA2MyIsInVzZXJfaWQiOiI0MGE3NzgyMy0wMmMyLTRkMjEtYmFhNy0zMzE3MmIzZTFkMzYifQ.kO4Mf_3jFrsZ--aoc4BfKbLFnKIdyXf_eWvOOz6g0W0' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Player campaign would agency interview reality guy.","maxScore":59,"minScore":8,"description":"Hot must he want ask morning significant. Third soldier yourself share able network theory. Cultural adult dinner weight physical last.","estimatedTime":"10 weeks","previewFileId":"44343949-075b-48d6-9923-cc4f1af749f4","createdByUserId":"40a77823-02c2-4d21-baa7-33172b3e1d36"}'

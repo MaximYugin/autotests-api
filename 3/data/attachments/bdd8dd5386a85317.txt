@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjI2OjEwLjE1NjYwOSIsInVzZXJfaWQiOiJiNGMyMWFhZC1mZmQ1LTRmZjMtOTQ0NS1lNThjMGUyNGZhMGQifQ.n4tlD6-lutiwxAvsafoQ4MeDI0BW-ELX9Y69ILBUt-A' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yard best television rich rise region.","maxScore":68,"minScore":16,"description":"Agree recognize upon cup remember question recognize coach. Lawyer bank direction specific. End fall perform our specific everything.","estimatedTime":"7 weeks","previewFileId":"7b9bc84c-f8c2-4740-9cb5-fdf539532b52","createdByUserId":"b4c21aad-ffd5-4ff3-9445-e58c0e24fa0d"}'

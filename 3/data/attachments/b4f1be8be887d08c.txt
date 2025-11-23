@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjI2OjEyLjU2MjA1OCIsInVzZXJfaWQiOiJjZmJlZjVmZS1jMWIwLTRkZGYtOWU0YS05MzU3ZDY0MDIxOTgifQ.jI9sKmhLaMXJBRw7B7F8YJ33CFYrXyiOPKsmNjQUO1A' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quality walk beat hit cup relate.","maxScore":61,"minScore":5,"description":"Military now operation relationship firm newspaper. Write away base fire economy.","estimatedTime":"3 weeks","previewFileId":"bfb26814-63fd-454c-bbd7-e29a0f8971fd","createdByUserId":"cfbef5fe-c1b0-4ddf-9e4a-9357d6402198"}'

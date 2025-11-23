@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjI2OjA5LjI0MzY1NyIsInVzZXJfaWQiOiI5OGZkNTYyOC04ZTcwLTRjN2MtYjhjYy1jZWE3NGFiYTA3ZTIifQ._zTP7Lz6luzvMTU0ZKjeLEhU7FOMVqSSe8oKz-jqXEU' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Before huge study civil thank view million dream.","maxScore":78,"minScore":12,"description":"Adult seven team behavior civil guess success. Sit begin law owner.\nMusic nearly red fly. Than choose hour partner rich far. Whole adult nature lead eat woman.","estimatedTime":"8 weeks","previewFileId":"2505f62e-12a0-49a7-8f47-d54f00141a13","createdByUserId":"98fd5628-8e70-4c7c-b8cc-cea74aba07e2"}'

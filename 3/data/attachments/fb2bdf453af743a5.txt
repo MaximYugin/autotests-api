@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjI2OjEwLjQzMDQzNyIsInVzZXJfaWQiOiI0YTQ4OWMyZi1kYjcxLTQzODgtOGJlOC1mNGRhYmE1Y2ViODIifQ.Z9m3vFEKHpEHuFyrJHWUxzedlgNmun0TptYA9-GoMrM' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Condition free decision.","courseId":"83257783-3742-49a2-bd40-a957be0271c1","maxScore":97,"minScore":20,"orderIndex":50,"description":"Leader before evidence support evidence provide. Machine safe tree give clear build station myself. Accept apply pull however treat trip conference.","estimatedTime":"4 weeks"}'

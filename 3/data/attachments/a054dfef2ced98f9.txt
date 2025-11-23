@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjI2OjA3LjgzMjY2OSIsInVzZXJfaWQiOiI0YWZkOGJjMS05Mzk3LTQ4NWQtYWViZC1lOWZkYWU3YTQ3MmMifQ.w1JIfzRmXFROQF_7CS3zih1Ia82kKuzV6n3tCSnxnDA' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sister itself civil pattern career especially task.","maxScore":58,"minScore":13,"description":"Side quickly box mean. Herself edge admit produce.\nSpring worker night. Part partner later modern. Treatment attorney material cultural.","estimatedTime":"4 weeks","previewFileId":"70493934-f86c-42ff-aa42-74db9ef953aa","createdByUserId":"4afd8bc1-9397-485d-aebd-e9fdae7a472c"}'

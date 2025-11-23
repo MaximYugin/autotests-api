@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjI2OjA4Ljk3MDM2OCIsInVzZXJfaWQiOiIxZWVlMWU5Ni01MGU3LTRlODAtYWM3MC1lMTI2MzYwMzMyYzIifQ.5BEBo8cdtH1hYHOswYAT8AsrY6cRFn9pSfZMqYwPnRo' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sure specific religious.","maxScore":88,"minScore":14,"description":"Walk building soldier become time example heart. Particularly approach those nor often stock show. Thought share fast third follow thousand bag.","estimatedTime":"3 weeks","previewFileId":"0cdf0d10-6f9f-401f-b08f-cf041c5df353","createdByUserId":"1eee1e96-50e7-4e80-ac70-e126360332c2"}'

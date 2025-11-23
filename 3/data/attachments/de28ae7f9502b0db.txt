@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjI2OjExLjYyMTI0NiIsInVzZXJfaWQiOiIwNDg5NjRkNS1mMDczLTQzZDQtOWRlMy05MTYwMmNhNjYxZWYifQ.DpDaV-hdZpvA99NSrdLIryIKJWMS_zNCyg8QSG2zpAo' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Popular situation today national recognize box control.","maxScore":92,"minScore":21,"description":"Quality music everything understand up wait. Always try everything law. Coach character per.\nCut prepare challenge use experience.","estimatedTime":"8 weeks","previewFileId":"7168d556-a856-4a74-93c1-40375ed961f9","createdByUserId":"048964d5-f073-43d4-9de3-91602ca661ef"}'

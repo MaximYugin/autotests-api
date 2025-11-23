@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjI2OjEwLjE1NjYwOSIsInVzZXJfaWQiOiJiNGMyMWFhZC1mZmQ1LTRmZjMtOTQ0NS1lNThjMGUyNGZhMGQifQ.n4tlD6-lutiwxAvsafoQ4MeDI0BW-ELX9Y69ILBUt-A' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Share enter accept identify skill stuff population large.","courseId":"e860f2e5-13f3-4aab-8bd5-4547df7ccc71","maxScore":52,"minScore":18,"orderIndex":29,"description":"Well your particularly first tend task result growth. Hospital election five six enjoy down.","estimatedTime":"1 weeks"}'
