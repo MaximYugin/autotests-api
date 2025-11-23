@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE5OjQ5OjMwLjgwNzM2OCIsInVzZXJfaWQiOiI1NjFmYWE3NC0zZmJjLTQzMWUtYTkwZS1mNmRkZTVhNWMwNzkifQ.-b6BKr7wwV9jL0Fzff7LTjLpaWyAGYLd3YNsQzOycnE' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"End attention mother everybody.","maxScore":50,"minScore":20,"description":"Next seem than safe push herself best. Old finally between TV outside page.\nKeep yeah way drug protect hope. Somebody color court travel.","estimatedTime":"1 weeks","previewFileId":"041ce469-898d-428d-94a3-9fab38d453f4","createdByUserId":"561faa74-3fbc-431e-a90e-f6dde5a5c079"}'

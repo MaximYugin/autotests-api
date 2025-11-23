@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE5OjQ5OjMyLjg2ODQ1NyIsInVzZXJfaWQiOiJlOGI5MWRjZS04NGI3LTQ5M2MtOGQ0MS04YmQwNTUwZTRjMjIifQ.SZfDRoWUAPRCi38dz-6pEYZpnQ5t-knu5jQtZ7rcutY' \
+  -H 'content-length: 447' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Crime research college administration join animal down.","maxScore":88,"minScore":27,"description":"Purpose matter across training parent three. Dream require sing although reason. Security line career up price word style color.\nDiscuss friend month official. Local safe father without word else.","estimatedTime":"3 weeks","previewFileId":"af3e45c4-2d17-4caa-8bc7-9b3be96bc877","createdByUserId":"e8b91dce-84b7-493c-8d41-8bd0550e4c22"}'

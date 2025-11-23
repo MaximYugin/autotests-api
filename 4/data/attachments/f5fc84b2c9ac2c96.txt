@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE5OjQ5OjMxLjk0MTYyNyIsInVzZXJfaWQiOiJkMGVmYzI2Yy0wNjhlLTQ0MGYtOWY1OC0zZmIwZThmZjEyZWYifQ.stv29RonWfW-Ur1Hjd8C0IQXBzXUBiID8y4ANeT8org' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Minute side score.","courseId":"62db6369-921e-41cb-8bdf-d1371210efb0","maxScore":85,"minScore":23,"orderIndex":37,"description":"Church course meet number.\nSee beyond collection group real. Parent whom by final he interview.\nHerself hope doctor month. Agree another plan could table. Light occur range.","estimatedTime":"1 weeks"}'

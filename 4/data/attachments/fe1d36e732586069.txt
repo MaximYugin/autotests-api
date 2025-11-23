@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE5OjQ5OjMxLjY4MTU2MiIsInVzZXJfaWQiOiI5ZGNhYmI1My0yMjgyLTQ4YzItYjYzMi0wM2I3OTg4NGRmYTcifQ.4eGqY1vNvya6uyeN6IDoeezpPShwRgOrj6Xy44P-P6I' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trade nearly partner artist everybody spring second.","courseId":"94566ddf-9f45-4724-a591-24b3d65734be","maxScore":81,"minScore":4,"orderIndex":79,"description":"Here remain attack even rise. Just explain several hit. Situation rock capital behavior admit. Future report recent full.","estimatedTime":"6 weeks"}'

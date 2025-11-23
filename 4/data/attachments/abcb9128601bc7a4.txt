@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE5OjQ5OjI4LjMwOTMwNCIsInVzZXJfaWQiOiI4NTUyNmE2OS02M2ZkLTQ3NmEtODE2Yi1jMTNhMDA2MWNhNjUifQ.x1lHFBqiWZPYc3Zm7P2hX7lPCehGD97neioCs3eZNVE' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Direction cut even it talk behavior today herself.","maxScore":73,"minScore":17,"description":"Listen somebody any face outside common seek. Image process when. Involve listen poor this.\nThese exist morning catch thus learn. Large state at happy to final. Music onto half suffer enough.","estimatedTime":"4 weeks","previewFileId":"be923ac6-b54a-4ef0-8538-bb6bbca07e15","createdByUserId":"85526a69-63fd-476a-816b-c13a0061ca65"}'

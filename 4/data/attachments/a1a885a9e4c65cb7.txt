@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE5OjQ5OjMxLjk0MTYyNyIsInVzZXJfaWQiOiJkMGVmYzI2Yy0wNjhlLTQ0MGYtOWY1OC0zZmIwZThmZjEyZWYifQ.stv29RonWfW-Ur1Hjd8C0IQXBzXUBiID8y4ANeT8org' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Black significant whose he from.","maxScore":61,"minScore":7,"description":"Traditional big hard technology kid fact across. Try know cost agent cost time while.","estimatedTime":"10 weeks","previewFileId":"e0de70be-6c47-4f6d-82b0-1e8150bb493c","createdByUserId":"d0efc26c-068e-440f-9f58-3fb0e8ff12ef"}'

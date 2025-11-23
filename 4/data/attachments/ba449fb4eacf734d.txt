@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE5OjQ5OjMwLjU0NjY4NiIsInVzZXJfaWQiOiIwOWE3ZDAyYi05NWJlLTQ4NWItYjUzOC00ZjI2YWFhMDIzOWUifQ.ZJzWjOgc4Vk5qN2D1V8QwHvBKg1ys-kDRZkCc573KqI' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Senior garden recently program cover design without.","courseId":"79436281-b820-4677-a6fd-778e0ac93561","maxScore":67,"minScore":20,"orderIndex":26,"description":"House change tree artist about finish nearly let. Part city law improve seem attorney.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises/285f6e05-c29f-472c-82c9-eb4b5fff2260
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/285f6e05-c29f-472c-82c9-eb4b5fff2260
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:66 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 285f6e05-c29f-472c-82c9-eb4b5fff2260
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Trade nearly partner artist everybody spring second.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 94566ddf-9f45-4724-a591-24b3d65734be
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 81
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 79
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Here remain attack even rise. Just explain several hit. Situation rock capital behavior admit. Future report recent full.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

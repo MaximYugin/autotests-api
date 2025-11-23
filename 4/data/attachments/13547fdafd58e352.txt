@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE5OjQ5OjI5LjY2MDk2MyIsInVzZXJfaWQiOiIxMmNjOWE2OS0yY2IwLTQ1ZjYtYjNjYy1hMzcyMTQzNzMzY2UifQ.r3VV0TxgPtfXm4olpkW9TEvHnDDn4dpfBiAvZ3kYyJA' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relate set food may keep white home.","maxScore":100,"minScore":14,"description":"Study entire data center often involve resource. Beautiful medical almost note near professor nature. Camera away democratic good.\nProfessional during century myself.","estimatedTime":"2 weeks","previewFileId":"b3514a25-be03-4bd8-a5df-8d18fadf4f3b","createdByUserId":"12cc9a69-2cb0-45f6-b3cc-a372143733ce"}'

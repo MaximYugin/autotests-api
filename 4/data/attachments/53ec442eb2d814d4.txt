@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE5OjQ5OjMwLjU0NjY4NiIsInVzZXJfaWQiOiIwOWE3ZDAyYi05NWJlLTQ4NWItYjUzOC00ZjI2YWFhMDIzOWUifQ.ZJzWjOgc4Vk5qN2D1V8QwHvBKg1ys-kDRZkCc573KqI' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"They per girl professor food rather picture.","maxScore":69,"minScore":27,"description":"Lawyer science peace miss game particularly agreement. Begin design generation. Car fall oil exist during with lose.\nUnit Mr why have. But enter him vote for commercial Republican.","estimatedTime":"8 weeks","previewFileId":"cf58004f-a3b5-4b25-96d8-72273814cd19","createdByUserId":"09a7d02b-95be-485b-b538-4f26aaa0239e"}'
