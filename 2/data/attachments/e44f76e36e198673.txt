@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjE5OjE3LjQ3Njc1NCIsInVzZXJfaWQiOiI0YzM3ZGM4Yi02YmJlLTQyZWItOWZhZS00NjQ1MTg3Mzk2YWQifQ.cWMw4-FxSJUBdvZk6U_LNjrgpu-0flr3Nxda6KLYdjg' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Avoid myself source various decide company itself.","maxScore":93,"minScore":23,"description":"Next west that clear meeting direction study idea. This allow make. Bit catch eat direction then. Fund plant popular military seat.\nInside which space response. Your fight no during.","estimatedTime":"3 weeks","previewFileId":"4259d217-8d74-4396-85fc-10f191f377ad","createdByUserId":"4c37dc8b-6bbe-42eb-9fae-4645187396ad"}'

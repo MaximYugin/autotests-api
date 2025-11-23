@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjE5OjE2LjI4NDk3NiIsInVzZXJfaWQiOiI2MzgzMDMyYi0yMGUzLTQ4NDEtYTdkNi03NGYzZTExNmMxMzUifQ.AePLwA24tjQADbRLTVSR5O7iiiLbKpGGOa5vkKIZxic' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sign national sport control admit.","maxScore":65,"minScore":16,"description":"Agreement country magazine night produce million activity skill. Major story drop especially throughout send billion middle. Throughout our page evening.","estimatedTime":"10 weeks","previewFileId":"3bd3e697-ba60-4f6b-97ba-32736913301d","createdByUserId":"6383032b-20e3-4841-a7d6-74f3e116c135"}'

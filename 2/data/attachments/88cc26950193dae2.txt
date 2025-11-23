@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjE5OjE4LjY2MjkzNyIsInVzZXJfaWQiOiI2ZmMwY2Y4Yi04NjY4LTQwMWQtOWI3NC1kYTVjYThjYmUyNzcifQ.mrViaqYDGRZTm48kk-FjxmJiZ-Ek8CQMFwfPaIPob5k' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Effect eat during design.","maxScore":78,"minScore":9,"description":"Report recent manage computer. Would financial arrive effect such. Name because month result he establish edge.\nNow white product. Rock story rock staff like.","estimatedTime":"2 weeks","previewFileId":"fdc64098-b92c-460d-bd58-463e08c3181f","createdByUserId":"6fc0cf8b-8668-401d-9b74-da5ca8cbe277"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/392af110-08b3-4067-94a8-dcfdd4648cb8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjE5OjE2LjAxMTcyOCIsInVzZXJfaWQiOiJjZjM2ZWE4Ni00M2U4LTQ0OTAtODk5My1hZmYyNzJhNjNkODMifQ.fIbGh3iPc9pGM1UBuhnzNpU_FwV7Msi3lyP26kNOqZI' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leave full expert ahead.","maxScore":62,"minScore":8,"description":"Population win center majority. Good place possible wrong ok several contain occur.\nMoment service response spring serious wonder to. Maintain foot increase popular. Should thought year.","estimatedTime":"2 weeks"}'

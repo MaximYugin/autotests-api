@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjE5OjE0Ljg3NzkyMyIsInVzZXJfaWQiOiI4MGNjYmM0Ni02MjBiLTQ1ODctODM0Yi0yMTcyNGM1YjdiY2EifQ.csTLrGLrLyiz-fEzA9CJaE8B0ld6BnGEw6v3gIonX2E' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Market black field director which student create newspaper.","maxScore":71,"minScore":15,"description":"Republican argue necessary my poor not. Third account join down hot whole. Cell rich protect for. Issue worry opportunity station.","estimatedTime":"1 weeks","previewFileId":"87c32ff2-12d8-43ab-a3df-aee45c0b8216","createdByUserId":"80ccbc46-620b-4587-834b-21724c5b7bca"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjE5OjE3LjIwMzg4MCIsInVzZXJfaWQiOiJjYWJjMmFmOC1hOWVhLTRhMWMtYTFmYi0yMGI5MDY5NTFjZDYifQ.aS8aB_d204Lm9dI2tlXyjn59Gw4hPNX8zQAU4xXa9Rk' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Force mother world capital into.","maxScore":98,"minScore":9,"description":"Soon seat high news only success. Community fast again as senior state data. By president people expert happen year ago.","estimatedTime":"7 weeks","previewFileId":"d9e46bd8-88be-431e-833e-7db536162a64","createdByUserId":"cabc2af8-a9ea-4a1c-a1fb-20b906951cd6"}'

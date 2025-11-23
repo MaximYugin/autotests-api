@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjE5OjE3LjIwMzg4MCIsInVzZXJfaWQiOiJjYWJjMmFmOC1hOWVhLTRhMWMtYTFmYi0yMGI5MDY5NTFjZDYifQ.aS8aB_d204Lm9dI2tlXyjn59Gw4hPNX8zQAU4xXa9Rk' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least cost above against suffer account third difficult.","courseId":"d86d6884-9356-4328-acb8-89d3e8c0196d","maxScore":79,"minScore":7,"orderIndex":48,"description":"Recent difference name tree partner management the expect. Probably crime surface only too. Reach various artist us week.","estimatedTime":"5 weeks"}'

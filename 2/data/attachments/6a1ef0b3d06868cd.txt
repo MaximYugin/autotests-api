@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:courses.py:95 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Sign national sport control admit.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 65
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 16
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Agreement country magazine night produce million activity skill. Major story drop especially throughout send billion middle. Throughout our page evening.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to 3bd3e697-ba60-4f6b-97ba-32736913301d
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to 6383032b-20e3-4841-a7d6-74f3e116c135
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

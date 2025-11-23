@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjE5OjE4LjM5MDIzMSIsInVzZXJfaWQiOiJjMDBiZDExZC1lMjcxLTRjZGUtYWY0YS0yYzcxM2M0MDYxNTIifQ.D0E-yt1zRVWoAupLdA2SCbD4o70i5Egkc6cogDcAw-c' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wish then exist specific television.","maxScore":72,"minScore":21,"description":"Bar lose my entire wrong ball pay. Back number total sure.\nIf his build small force. Team ground three west Congress fire majority church. Thought company class not their ok professor.","estimatedTime":"7 weeks","previewFileId":"2c1a7cd0-bf53-43f9-b04d-9db9c8a6114d","createdByUserId":"c00bd11d-e271-4cde-af4a-2c713c406152"}'

@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises/c94f1f87-c036-4860-805e-60bee2f9096f
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/c94f1f87-c036-4860-805e-60bee2f9096f
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:66 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to c94f1f87-c036-4860-805e-60bee2f9096f
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Role above ask.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 77133816-318d-4b93-a4db-44a06159095d
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 85
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 11
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 5
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Study through accept admit at. Meet job democratic fund manager.
+Lay physical particular modern opportunity want try. Sing kitchen yet car far system.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

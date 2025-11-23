@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjE5OjE5LjYyOTgyMyIsInVzZXJfaWQiOiI3OTNhYjc3Mi0yZmQ2LTQ1ZmItOTNlMi0yM2FjNGM4OWM5ZjAifQ.CrOdNITL24np1wxKBqu5FZ3xTFMHWnR0e8Ndy1GWQBQ' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Music carry any bring whom I base.","maxScore":74,"minScore":21,"description":"School they training present scientist wall deal. Upon again thought two phone mouth.\nRelationship general day attorney.\nPublic central nice amount.","estimatedTime":"7 weeks","previewFileId":"b2784945-01ba-4141-86b6-0d78bb4f6634","createdByUserId":"793ab772-2fd6-45fb-93e2-23ac4c89c9f0"}'

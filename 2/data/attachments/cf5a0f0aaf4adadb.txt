@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjE5OjE2LjAxMTcyOCIsInVzZXJfaWQiOiJjZjM2ZWE4Ni00M2U4LTQ0OTAtODk5My1hZmYyNzJhNjNkODMifQ.fIbGh3iPc9pGM1UBuhnzNpU_FwV7Msi3lyP26kNOqZI' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"The agent goal in them ability piece.","maxScore":68,"minScore":23,"description":"Blue can ok economic agency response government. Affect someone line. Best ahead high civil call away argue. Tough whether present green role scientist resource.","estimatedTime":"10 weeks","previewFileId":"c0469c9c-f0b7-4391-b906-f66d3b12da78","createdByUserId":"cf36ea86-43e8-4490-8993-aff272a63d83"}'

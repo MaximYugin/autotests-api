@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE4OjE5OjE4LjY2MjkzNyIsInVzZXJfaWQiOiI2ZmMwY2Y4Yi04NjY4LTQwMWQtOWI3NC1kYTVjYThjYmUyNzcifQ.mrViaqYDGRZTm48kk-FjxmJiZ-Ek8CQMFwfPaIPob5k' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decide response young red about.","courseId":"76e698d1-b3e0-4384-90ae-43d472bda8e5","maxScore":62,"minScore":24,"orderIndex":91,"description":"Past world feel case. Response six include. Education sound our amount worry true degree.\nNever out sister police who source financial. Agree thought agency hit couple. Help management range.","estimatedTime":"7 weeks"}'
