@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE3OjE5OjE2LjM3MzEyNyIsInVzZXJfaWQiOiJjOGE0MTBiNS03ZjM1LTRlMGUtYWNiYy0xNWUxOGEzNmM4NGQifQ.4jpOYx3z0yltb5OPImmiYMDa6bTrRCINgvkuhpP0cDk' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trouble hold yet require.","maxScore":99,"minScore":27,"description":"Ago small suffer identify energy student action effect.\nElection deep put central sister wife. Form election never home age it all.","estimatedTime":"6 weeks","previewFileId":"db0796ae-99c3-4dcf-8592-424808d8d783","createdByUserId":"c8a410b5-7f35-4e0e-acbc-15e18a36c84d"}'

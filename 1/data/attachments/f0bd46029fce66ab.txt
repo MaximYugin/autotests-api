@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE3OjE5OjE5LjcwNTMxNiIsInVzZXJfaWQiOiJhNzA0YWJiYS1kNjA0LTQ1MDktYThlYS1kZmEyYTMxOWM2ZGMifQ.CODDgSYZQUPmOmzqMoyMf3-FmDbgXderjET99VELIxA' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Political nor drive experience effort.","maxScore":98,"minScore":12,"description":"Population life character begin ahead. New center card.\nInto concern state message. Eight day left project station really difficult energy. Tax whatever within own another sing officer writer.","estimatedTime":"5 weeks","previewFileId":"5a9b14cb-f69a-4cae-a026-348138273663","createdByUserId":"a704abba-d604-4509-a8ea-dfa2a319c6dc"}'

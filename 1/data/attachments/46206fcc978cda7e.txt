@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE3OjE5OjE4LjQ4NjI3NCIsInVzZXJfaWQiOiI1NzQ5MzBkMy05NDJkLTQwZDUtOWM2Ni0xMzZhMzkzYTdkZjUifQ.JFKKSfmwbamwp4tkC-aO2w_d8gr3jgdA72ZlhEI6B-A' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Poor believe moment media.","maxScore":55,"minScore":24,"description":"Onto trade see form glass political. Hospital woman social. Kitchen article thought every Mrs necessary by.","estimatedTime":"8 weeks","previewFileId":"33f650c5-7e9e-4724-96c3-101583d8a229","createdByUserId":"574930d3-942d-40d5-9c66-136a393a7df5"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE3OjE5OjE0Ljk1ODk3NSIsInVzZXJfaWQiOiI2NjA3NWJjMC0yYjdhLTQ0MTUtYjYwZS02YzAxMzJhYWE0ZDUifQ.PzsdudMUPOFikmSlR2r-9vM_ftSyUdrsO4HtRhgkWE4' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Manager tonight away consumer sure whose.","maxScore":71,"minScore":10,"description":"House cold easy. Often really land like lay wonder. Necessary organization few population modern.","estimatedTime":"4 weeks","previewFileId":"d4207d81-afc6-47f6-83ff-ac089708621c","createdByUserId":"66075bc0-2b7a-4415-b60e-6c0132aaa4d5"}'

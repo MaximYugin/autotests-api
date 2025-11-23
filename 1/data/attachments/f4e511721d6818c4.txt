@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE3OjE5OjE4LjQ4NjI3NCIsInVzZXJfaWQiOiI1NzQ5MzBkMy05NDJkLTQwZDUtOWM2Ni0xMzZhMzkzYTdkZjUifQ.JFKKSfmwbamwp4tkC-aO2w_d8gr3jgdA72ZlhEI6B-A' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thank anyone learn society general response nice.","courseId":"522afc3b-9c3b-40bd-903c-a56e6aee1dd0","maxScore":67,"minScore":12,"orderIndex":37,"description":"Most alone yeah memory drive kitchen.\nTable consumer summer training suggest detail. Billion second run nice ball letter.\nEconomy skill position. Interest grow force.","estimatedTime":"6 weeks"}'

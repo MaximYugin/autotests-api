@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE3OjE5OjE2LjA5ODkwMiIsInVzZXJfaWQiOiI4ZWFiMDQxMC05ZjAxLTQ3NjQtODk2Ni00MTlhMjFhOWZiMDYifQ.Pioey5XU6ExrJQWYSG25Vrt-8yUYtTJU5m6dUYSROg0' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Account somebody travel total.","maxScore":87,"minScore":22,"description":"Score according admit sing necessary thus chair. Investment bring look ask.","estimatedTime":"4 weeks","previewFileId":"a2f2e5d9-127b-4d13-a8f1-be6d9ebf1568","createdByUserId":"8eab0410-9f01-4764-8966-419a21a9fb06"}'

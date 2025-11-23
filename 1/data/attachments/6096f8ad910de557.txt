@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE3OjE5OjE3LjI5Njk4MiIsInVzZXJfaWQiOiIxYjNhMDIwZS02YjQxLTQzNzAtYWQ3Yy1hMTJkNTEyYzcyODkifQ.H7QcCbdZSN8awyyoieLfR7toNxDPnozvnnfVyfFMFAY' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Home then fast close accept wide read.","maxScore":100,"minScore":5,"description":"Bill person seven. Else line tell more. Describe around measure rich plan.\nDevelop top current whose really establish set. Conference last country. Continue both suggest into hundred part.","estimatedTime":"4 weeks","previewFileId":"4f9f06f5-aadc-481c-9c31-95fa54c8aa81","createdByUserId":"1b3a020e-6b41-4370-ad7c-a12d512c7289"}'

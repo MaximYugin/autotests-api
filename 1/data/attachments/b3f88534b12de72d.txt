@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a6659ac7-9381-4179-a2c0-5d4e9943db0f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE3OjE5OjE2LjA5ODkwMiIsInVzZXJfaWQiOiI4ZWFiMDQxMC05ZjAxLTQ3NjQtODk2Ni00MTlhMjFhOWZiMDYifQ.Pioey5XU6ExrJQWYSG25Vrt-8yUYtTJU5m6dUYSROg0' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Technology its whole cold hair strong above hand.","maxScore":91,"minScore":6,"description":"Dream PM war buy yet standard public real. Hundred keep glass hour professional.\nChange site back. Travel lawyer not fear perhaps need picture. Least month bar particularly garden fall.","estimatedTime":"7 weeks"}'

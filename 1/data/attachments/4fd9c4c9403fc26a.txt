@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE3OjE5OjE3LjU3MTEzNyIsInVzZXJfaWQiOiJlYmRiM2UxYS05NDY3LTRlY2YtODIzOC0zZGM0MmI3YmRkMjEifQ.ekDkiyzDUzdKT-enVTCxC4kVj6IKEj9AENn2kMRg2Pw' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Protect pick better artist.","maxScore":53,"minScore":15,"description":"Difference leave make evening. Necessary cold pull six building help. Large one policy player maintain hospital likely stop.\nOnto movie discuss. No relate Mr stop lay.","estimatedTime":"10 weeks","previewFileId":"6ab4f689-3efb-4d6e-89ee-d8619bd5dcc8","createdByUserId":"ebdb3e1a-9467-4ecf-8238-3dc42b7bdd21"}'

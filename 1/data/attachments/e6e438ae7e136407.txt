@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIzVDE3OjE5OjE5LjcwNTMxNiIsInVzZXJfaWQiOiJhNzA0YWJiYS1kNjA0LTQ1MDktYThlYS1kZmEyYTMxOWM2ZGMifQ.CODDgSYZQUPmOmzqMoyMf3-FmDbgXderjET99VELIxA' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Car two career media Mr.","courseId":"9c2c6154-cc74-472b-a1d7-7495a252c9db","maxScore":77,"minScore":20,"orderIndex":71,"description":"Modern price maintain whom interview final ask. As south number sit we travel low.\nLow real popular card it tax. Stay allow organization level spend picture.","estimatedTime":"1 weeks"}'
