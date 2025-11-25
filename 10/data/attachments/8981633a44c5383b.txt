@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDIwOjI2OjU4Ljc0NzE3MCIsInVzZXJfaWQiOiIyYjc0YmJkZS1lNTFjLTQ1NjEtOTM4MC1hYTAxN2RkN2RhZmIifQ.gnuk-T0OQjZ6T079D_iwKIiS91IqUTXR5Q6mvUwmaAE' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Writer for soldier push rate difference.","maxScore":86,"minScore":14,"description":"Deep style professional join camera where several. Few far sound military.\nItself list rest across chance west. Each movie positive forward develop. Show indicate score decision possible.","estimatedTime":"2 weeks","previewFileId":"ebaf9990-c352-4fcb-92c4-30aef364954a","createdByUserId":"2b74bbde-e51c-4561-9380-aa017dd7dafb"}'

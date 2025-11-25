@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDIwOjI2OjU3LjAwMjM0MyIsInVzZXJfaWQiOiI4NjVmOTExOC00NTkxLTQ2ZmQtODNhNC1iNWQ3ZTUwYzA3ZTIifQ.VNvImweAsiA1p6l65a-_LEuhJKU5X5XhCCISW-rmNQ8' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rich clear water girl beyond home.","maxScore":63,"minScore":16,"description":"General voice herself child break suddenly. Customer team agency class. Believe financial could across involve season.","estimatedTime":"2 weeks","previewFileId":"fa460cd8-7635-4f03-8e5d-29c684d74dc6","createdByUserId":"865f9118-4591-46fd-83a4-b5d7e50c07e2"}'

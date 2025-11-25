@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDIwOjI2OjU4LjEyMTQ0NiIsInVzZXJfaWQiOiI5NGVjZjdlZC02YmZhLTQ4YmUtYWNiMS01NjUxNGE3ZjExNTAifQ.MddP0MunnKP4KIC_zTL-yX6SBna91zmEbJhE8u1s_a4' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mind ready significant trouble plant attack.","maxScore":98,"minScore":21,"description":"Charge detail president firm trouble. Person full your event.\nWar ago economy per sing our. Present share life east.","estimatedTime":"10 weeks","previewFileId":"5f5424dc-ceb3-4cfe-83cb-5cd8ca902dee","createdByUserId":"94ecf7ed-6bfa-48be-acb1-56514a7f1150"}'

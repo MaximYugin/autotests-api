@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDIwOjI2OjU5LjMzMjU1MyIsInVzZXJfaWQiOiJkMGE0NmE5Yy05MDMxLTRkNWUtODI1Zi1hOWU2MDY3NTlmYWEifQ.v11M4zRWCoTU4Jo3kRX04xoLXTHpP7m7fA8acXq2Jyk' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Five off cell vote.","maxScore":78,"minScore":7,"description":"Single perform professor food manage feel. Wife hold owner under believe.\nTreatment piece relate even later end along specific. Out skin so suddenly act food.","estimatedTime":"5 weeks","previewFileId":"f852e49f-4865-4221-8a46-8551145bcf5a","createdByUserId":"d0a46a9c-9031-4d5e-825f-a9e606759faa"}'

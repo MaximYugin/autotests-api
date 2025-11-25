@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/82bb01a6-a341-40bf-87a8-46a58325f5ff' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDIwOjI2OjU1Ljg0MTMzNCIsInVzZXJfaWQiOiI5NmQxNzI2Mi1hMGJhLTQ1NGItODliZC0xNjQ2ZWU3OWU1M2QifQ.ET-r0IXUWjj9TFkLW27uXtIEMaj5vgdDPEw1IE5oU0Y' \
+  -H 'content-length: 235' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Small than enter.","maxScore":85,"minScore":25,"description":"Coach large respond hand prove. Relationship majority body of. Fill eight bring cold loss actually. Debate magazine thus strong nature.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDIwOjI2OjU1Ljg0MTMzNCIsInVzZXJfaWQiOiI5NmQxNzI2Mi1hMGJhLTQ1NGItODliZC0xNjQ2ZWU3OWU1M2QifQ.ET-r0IXUWjj9TFkLW27uXtIEMaj5vgdDPEw1IE5oU0Y' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whom there let yeah prevent hotel.","maxScore":85,"minScore":8,"description":"Watch industry PM member hear live. Just Mrs power turn indeed its yes. Five seem close kid.\nView court opportunity police notice wife.\nExample huge institution discuss. Attorney theory same sport.","estimatedTime":"3 weeks","previewFileId":"150db1dc-3bcb-4c43-822b-a36f37a6a50b","createdByUserId":"96d17262-a0ba-454b-89bd-1646ee79e53d"}'

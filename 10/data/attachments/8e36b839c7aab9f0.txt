@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDIwOjI2OjU2LjQ0ODU5MSIsInVzZXJfaWQiOiJjMzMzNGI3NS1iOWM0LTQ4OTAtOTZjNy00M2RhM2QxMDA3NDIifQ.OPQfSLm18xzkqQlDQaPBcAnz5Ij11ll3K5VGgLwswCw' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Per feeling should service apply girl rate.","maxScore":93,"minScore":21,"description":"Save along politics various owner state.\nWin however team Mrs maintain. Technology contain up until live already. Our improve popular course.\nIncluding lead certain military whatever security.","estimatedTime":"6 weeks","previewFileId":"3816cd42-3964-42e6-bae3-1018291fa2b9","createdByUserId":"c3334b75-b9c4-4890-96c7-43da3d100742"}'

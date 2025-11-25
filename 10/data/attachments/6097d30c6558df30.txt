@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/8a602515-fa29-4859-9311-82ba9d617b48' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDIwOjI2OjU3LjU2NjIzMyIsInVzZXJfaWQiOiJmZTcxMGM2Yi0zNWViLTQ5NGMtOGQ4OS00ZDRmYTNmOWI5MDIifQ.bMzeYVyhfhRCEpq_e39CDYQI_ZVI7mQwFq5DcadEjHI' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thousand put rise author different again according major.","maxScore":72,"minScore":16,"orderIndex":88,"description":"Nearly per wear heart air. Real together arm prepare man. Shake fast stock skill various foreign. That trial thank white former offer material.","estimatedTime":"7 weeks"}'

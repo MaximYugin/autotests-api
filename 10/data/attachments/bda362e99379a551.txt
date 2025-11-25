@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDIwOjI2OjU3LjU2NjIzMyIsInVzZXJfaWQiOiJmZTcxMGM2Yi0zNWViLTQ5NGMtOGQ4OS00ZDRmYTNmOWI5MDIifQ.bMzeYVyhfhRCEpq_e39CDYQI_ZVI7mQwFq5DcadEjHI' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seek change real inside beyond occur some.","courseId":"50965506-27b3-4e51-9f7b-b9b00a7bbbc5","maxScore":62,"minScore":30,"orderIndex":2,"description":"Our brother arrive movement. Heart class might concern oil trial. Unit political Mrs poor. Group pattern four civil meet every part.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDIwOjI2OjU4LjEyMTQ0NiIsInVzZXJfaWQiOiI5NGVjZjdlZC02YmZhLTQ4YmUtYWNiMS01NjUxNGE3ZjExNTAifQ.MddP0MunnKP4KIC_zTL-yX6SBna91zmEbJhE8u1s_a4' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least clear better establish thus six.","courseId":"dddff349-b733-43a9-a3c3-1c2418f9c74e","maxScore":83,"minScore":27,"orderIndex":17,"description":"Reveal compare moment water course maybe next.\nOwn phone too significant few. Indeed provide debate perhaps business yeah west. Way exist believe east serve agency.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDIwOjI2OjU3LjU2NjIzMyIsInVzZXJfaWQiOiJmZTcxMGM2Yi0zNWViLTQ5NGMtOGQ4OS00ZDRmYTNmOWI5MDIifQ.bMzeYVyhfhRCEpq_e39CDYQI_ZVI7mQwFq5DcadEjHI' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Government interesting market federal continue.","maxScore":67,"minScore":13,"description":"Various first beautiful compare life society image soon.\nLeave prevent help play take rock say. Power much table attention movie camera many forget. Different strategy return official good there.","estimatedTime":"2 weeks","previewFileId":"ab1e907d-3db9-436b-9ed0-9a9430e6e4e7","createdByUserId":"fe710c6b-35eb-494c-8d89-4d4fa3f9b902"}'
