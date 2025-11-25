@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjA0OjI0Ljg4MTU5OCIsInVzZXJfaWQiOiJjYzNhMmQ3ZS1lMmI3LTQ3MjQtOWZkYy0wYjVmNDY1NTI4YjMifQ.t_y8OWJ4oE7xAbLPIrCOmPf6HrEctvdi9RiDoEEOVlc' \
+  -H 'content-length: 263' \
+  -H 'content-type: application/json' \
+  -d '{"title":"To story identify hold experience.","courseId":"fa9889bb-eb44-47f2-81a0-57a90c996a1a","maxScore":100,"minScore":20,"orderIndex":17,"description":"Western expect respond military owner available address. Detail teacher go so.","estimatedTime":"10 weeks"}'

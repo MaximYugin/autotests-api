@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjA0OjIzLjcwNTk5MSIsInVzZXJfaWQiOiI0ODFlNzQ3Yy1hOTE5LTQzMWUtYTNlOS1iODdlODAxOWE2ZWUifQ.65aMSjdCfm2LgaF-aqlxb6bezu1Eh1cugEBdYqAnvcA' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Threat serve page performance increase list price.","maxScore":81,"minScore":4,"description":"Law from range wide movie. Main until think.\nAnything south opportunity that important bit look.\nPerson meeting heavy court soon. Water professor raise real speak never.","estimatedTime":"2 weeks","previewFileId":"ad7fb9d7-27af-47f9-b4bd-24784d060247","createdByUserId":"481e747c-a919-431e-a3e9-b87e8019a6ee"}'

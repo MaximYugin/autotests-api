@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjA0OjI1LjQ2OTQ2MyIsInVzZXJfaWQiOiJiNDJiYzg3MC1hNGRhLTQ5NjUtYjExNC1lMzRmOGU4NGE0MDUifQ.nydTtN0yCutFnuav6Y_kZBUFa9zJftzrzs7HIMhrNXY' \
+  -H 'content-length: 264' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skin the good a.","courseId":"2d88804a-9462-418f-8238-84ba82afc269","maxScore":98,"minScore":26,"orderIndex":62,"description":"Space work continue college tell.\nConsumer down measure day order hand offer. If for baby be role.","estimatedTime":"1 weeks"}'

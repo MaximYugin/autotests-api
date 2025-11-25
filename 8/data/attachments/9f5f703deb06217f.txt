@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjA0OjI2LjcwMDE2NyIsInVzZXJfaWQiOiJjMmFkYjYwMi0xNzMwLTQ3YzQtYTc5Yi00MDEwOGJhZWQwYTAifQ.PwqtB4J5YDOsTbmEqpW87lzK_s5NMQTbuRczQxyz9oA' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Address her apply.","maxScore":97,"minScore":3,"description":"Wind party population ground ago occur throw believe. Hospital science seat clearly student do source. Others will tax.","estimatedTime":"1 weeks","previewFileId":"1f1653ff-fc5e-4c62-ac97-d02d0e67d560","createdByUserId":"c2adb602-1730-47c4-a79b-40108baed0a0"}'

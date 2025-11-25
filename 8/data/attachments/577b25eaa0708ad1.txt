@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjA0OjI2LjExNjc5OSIsInVzZXJfaWQiOiI0YTA5NjgwZS1lNTI2LTQ1MGMtYWUzZC01NzU2MmI0YTU2NmEifQ.fmHjZdqMnLKB7TfKQxr9ujvvUCw6YYzUMbcoH3kaKLU' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happy health executive possible sing court start.","maxScore":93,"minScore":12,"description":"Job follow than wrong choice. Measure song manager.\nSong war cover wind official.\nMay study animal north more. Consider president finish street order and voice.","estimatedTime":"10 weeks","previewFileId":"6c281169-b4f2-48be-9a43-95e961792d76","createdByUserId":"4a09680e-e526-450c-ae3d-57562b4a566a"}'

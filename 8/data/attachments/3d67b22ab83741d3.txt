@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4d24cf25-8cfc-4640-ae27-36b9facafa78' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjA0OjIzLjcwNTk5MSIsInVzZXJfaWQiOiI0ODFlNzQ3Yy1hOTE5LTQzMWUtYTNlOS1iODdlODAxOWE2ZWUifQ.65aMSjdCfm2LgaF-aqlxb6bezu1Eh1cugEBdYqAnvcA' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Property identify four today staff save.","maxScore":88,"minScore":24,"description":"Work light cold may paper letter within rock. Name education yard seek clear. That protect until old travel computer analysis. Nation what risk good.","estimatedTime":"4 weeks"}'

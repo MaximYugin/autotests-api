@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjA0OjI1LjQ2OTQ2MyIsInVzZXJfaWQiOiJiNDJiYzg3MC1hNGRhLTQ5NjUtYjExNC1lMzRmOGU4NGE0MDUifQ.nydTtN0yCutFnuav6Y_kZBUFa9zJftzrzs7HIMhrNXY' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bag process issue great.","maxScore":92,"minScore":30,"description":"Do central Congress kind place loss. There people exactly prepare. Instead step use center.\nIt method read education game. Realize law spring establish act. Cultural suggest eat I.","estimatedTime":"1 weeks","previewFileId":"85986073-3a03-4a70-879e-c86b4f5511b2","createdByUserId":"b42bc870-a4da-4965-b114-e34f8e84a405"}'

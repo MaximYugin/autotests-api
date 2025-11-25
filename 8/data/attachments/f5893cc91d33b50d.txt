@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjA0OjI0Ljg4MTU5OCIsInVzZXJfaWQiOiJjYzNhMmQ3ZS1lMmI3LTQ3MjQtOWZkYy0wYjVmNDY1NTI4YjMifQ.t_y8OWJ4oE7xAbLPIrCOmPf6HrEctvdi9RiDoEEOVlc' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Energy opportunity language hit economic nor little.","maxScore":91,"minScore":8,"description":"They so majority consumer research subject interview. News able want center.\nAssume government free bed traditional half. Music evidence or across huge. Pattern outside water news author.","estimatedTime":"4 weeks","previewFileId":"1ea95c52-44bd-49a1-ba2e-17598846505b","createdByUserId":"cc3a2d7e-e2b7-4724-9fdc-0b5f465528b3"}'

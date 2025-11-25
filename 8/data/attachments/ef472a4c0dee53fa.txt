@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjA0OjI3LjM4NDAzOSIsInVzZXJfaWQiOiI4MGQxYTVlMS1lZTczLTQzNzEtODc0NS05MDNlMTg2OTZiZjgifQ.hGkvZjm7cHBezjSKa5_fbd1D0cBgBoChMlhaUcT60jY' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Road still feel week system mission.","maxScore":58,"minScore":17,"description":"Officer opportunity but tonight society. Rock author difference tax fact fast.\nResult interview charge air house.\nInstitution expect huge than. Art opportunity fly card born hard process despite.","estimatedTime":"1 weeks","previewFileId":"8dc40b2a-a4e1-4611-b34f-eb01f94045a5","createdByUserId":"80d1a5e1-ee73-4371-8745-903e18696bf8"}'

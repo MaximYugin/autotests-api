@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjA0OjIzLjExMDU0NiIsInVzZXJfaWQiOiI1OWQ1MWNkMi03NTYyLTQ3OWUtYjIwZi0xOWI2YTYzYzdiYWYifQ.0GpPt-z5cOuyPUua2ck-mu40dnwKewHHng5LNPfraXY' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Break exist hundred interesting.","maxScore":53,"minScore":22,"description":"Situation series course. Republican if particularly year avoid benefit.\nSchool gun care brother buy dark. Vote yes discuss movie item eight.","estimatedTime":"7 weeks","previewFileId":"6709515e-abca-4bcb-98a4-ab31c3701955","createdByUserId":"59d51cd2-7562-479e-b20f-19b6a63c7baf"}'
