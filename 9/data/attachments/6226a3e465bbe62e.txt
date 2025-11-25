@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjUwOjA3LjY3NzU4NCIsInVzZXJfaWQiOiIyNzM4ODgzNy00ODFlLTRhNjAtYTU1NS1kNjQ2YjE2N2IyMGYifQ.GXaXb-75doQ4hYQNMn5rustemKq75vkBaE-9cEgxYzQ' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Story save alone left forget identify.","maxScore":91,"minScore":9,"description":"Physical reflect discussion business between tree who beyond. Career learn white value action green stop positive. Tell score too standard collection.","estimatedTime":"3 weeks","previewFileId":"0a2ad2a3-1581-406f-810e-0e0ba6e5e639","createdByUserId":"27388837-481e-4a60-a555-d646b167b20f"}'

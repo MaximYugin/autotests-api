@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjUwOjA5Ljk4NTcwMyIsInVzZXJfaWQiOiI0NzhkMTgwNi1kNzFmLTQxNDMtYTYxNS02NzhkZTBlNmY0MWUifQ.FaBLfdNSHHSAQ47Ipp0TMLwU6oglKxfPwZ18NDHAeSU' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Its peace letter none.","maxScore":55,"minScore":1,"description":"Subject magazine during learn agree site civil. Per three help success use this. Too our him also return movement receive.","estimatedTime":"9 weeks","previewFileId":"fa5a6c5d-9872-48c5-ab51-d881cf022323","createdByUserId":"478d1806-d71f-4143-a615-678de0e6f41e"}'

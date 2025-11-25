@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjUwOjA3LjEyMjM1MiIsInVzZXJfaWQiOiJkNWQ0ZDMyMC0wYTljLTRlMTgtYmI4Yy04NDMyZDE0YjVkMjMifQ.NMKvszy7KPRVTO53-WW6Uti-TE7wBq-D9uA4UohE-8s' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Event form collection training.","maxScore":63,"minScore":5,"description":"Appear upon use some require meet.\nDegree us condition need. Environmental create agency skin population social.","estimatedTime":"5 weeks","previewFileId":"fcb673df-a63e-4021-97c5-876f6503ab76","createdByUserId":"d5d4d320-0a9c-4e18-bb8c-8432d14b5d23"}'

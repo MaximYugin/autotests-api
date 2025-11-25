@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjUwOjA5LjM5NzYxMyIsInVzZXJfaWQiOiJkNzQwYzdmNC03Mzc5LTRhNmItYjM4NC01YjBiZTA0NjQxOWIifQ.OTWvwXDO9_hvweaMs9DJsx6RW1w2nnh_egU35hGHLKg' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Life professional check.","maxScore":93,"minScore":15,"description":"Someone choice Mr nation which expect threat. Training sea occur cost interesting team me. Pm girl cost take cell much huge.","estimatedTime":"2 weeks","previewFileId":"5dd0bcef-10cb-4eaf-bd68-53b246bef0d7","createdByUserId":"d740c7f4-7379-4a6b-b384-5b0be046419b"}'

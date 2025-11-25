@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjUwOjA2LjQ5OTM2OCIsInVzZXJfaWQiOiI3NmY5ZGE0OS1mZGU5LTQ3NGYtODdmMS0zODFlZGRlMjI4NDUifQ.tnbZY_zZfivNAYSGIxchKZ3-DmW4YHiY8kLJQ3IYDZM' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sense development begin single pay.","maxScore":95,"minScore":14,"description":"Star store affect rather body. Stop give physical. Son generation mention serve food move. Between interest result.\nModern drive against tough consider.","estimatedTime":"3 weeks","previewFileId":"9c3de27a-47bf-4b20-9daf-0e14337d0620","createdByUserId":"76f9da49-fde9-474f-87f1-381edde22845"}'
