@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/6087309d-17b4-40c3-ab17-cf5988e35096' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjAyOjIyLjEwODE1MCIsInVzZXJfaWQiOiI1NjI1MjdmYi02MGExLTQ0YmMtOTE5OC0yMzE2ODgyYzFmNWIifQ.hTGRuXuTu_LsJ3MpId4dAAjTF0iBpaDUC0pCIP2vYck' \
+  -H 'content-length: 192' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sing card movement.","maxScore":76,"minScore":28,"orderIndex":21,"description":"This leader seven role general tough. Actually since standard around with.","estimatedTime":"7 weeks"}'

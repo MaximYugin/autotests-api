@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjAyOjIwLjkxMzc3OCIsInVzZXJfaWQiOiJkOTgwM2IwZi1iZDZhLTQzMzktOTVhYS0yMTUwNTdlMzYxNGIifQ.lXlC5SCR3qGNej3Ks9D3WLwRRdrBaTvC-1KRTryS0T4' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Light later yet.","maxScore":87,"minScore":8,"description":"Wall quite often base entire important. Century course those organization energy suddenly growth. Apply each environmental country issue call nothing.","estimatedTime":"2 weeks","previewFileId":"e5c9f5c5-033d-4c4a-a8b0-531550fe5c7a","createdByUserId":"d9803b0f-bd6a-4339-95aa-215057e3614b"}'

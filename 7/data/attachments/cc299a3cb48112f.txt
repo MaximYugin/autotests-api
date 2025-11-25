@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjAyOjIzLjAxOTYyMSIsInVzZXJfaWQiOiJkNWExNmEyZC03NjZlLTRjMjQtYTBmNi1kZjc3ZjE4NzAyYjgifQ.frRJh522sl5GYZFcKhOANRg8ZX4yQ0rNuz52hyRXPz4' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Before cost represent each painting lead pressure.","maxScore":50,"minScore":18,"description":"Political court two road. Set smile eat.\nSon would physical try true media.\nCentury per south ten significant against.","estimatedTime":"8 weeks","previewFileId":"362461fc-4113-4774-9444-cee7cb2e5867","createdByUserId":"d5a16a2d-766e-4c24-a0f6-df77f18702b8"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjAyOjE5LjQ5Njc3OSIsInVzZXJfaWQiOiJlNzNhNzU1OC04NjNhLTRmNmItYjZkYS1mMWJjZTg1NWYzZDQifQ.j5RRkdYqDTB2x4kyuGn68CanUq4P-xLrkTlnYIGZg08' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Policy partner article report boy for know.","maxScore":84,"minScore":13,"description":"Tv sort out book. Laugh mind use assume prepare. Value amount but less.\nSystem lot those until. Wrong painting region size any of find. Amount before contain push to.","estimatedTime":"4 weeks","previewFileId":"72c4f558-a130-4931-bc10-cf35ce63eeef","createdByUserId":"e73a7558-863a-4f6b-b6da-f1bce855f3d4"}'

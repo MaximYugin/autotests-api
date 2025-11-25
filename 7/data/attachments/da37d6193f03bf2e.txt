@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3309cf92-9830-4934-bdf6-559a6dc70ff6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjAyOjIwLjYzOTUwOCIsInVzZXJfaWQiOiIzZTRiMWNkZi1kNjAwLTRlNGQtYjNmNS03OWZiYjBlMjgwNTcifQ.kipKtayysY9OpwphNZ61QIsT2ZS3msqMGOWYjs3yaug' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Among forget activity toward.","maxScore":95,"minScore":22,"description":"Store administration enjoy more authority. Series since me hope task. Great building relationship while ten establish scene.\nLawyer whose election. Art admit impact themselves question pressure.","estimatedTime":"9 weeks"}'

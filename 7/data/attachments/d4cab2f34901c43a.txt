@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:23 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Son population coach threat cultural.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 37da3a14-77c7-4d12-a03e-223e44f3fa96
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 59
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 40
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Reflect individual outside suffer fall stock which. Radio again even rock sport history example. Cold theory help either city marriage.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

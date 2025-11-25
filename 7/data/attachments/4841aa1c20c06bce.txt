@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjAyOjIzLjAxOTYyMSIsInVzZXJfaWQiOiJkNWExNmEyZC03NjZlLTRjMjQtYTBmNi1kZjc3ZjE4NzAyYjgifQ.frRJh522sl5GYZFcKhOANRg8ZX4yQ0rNuz52hyRXPz4' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"About avoid word development model focus.","courseId":"3c2e790e-516c-4209-a288-03bdcf219af0","maxScore":91,"minScore":18,"orderIndex":93,"description":"Four card meeting factor. Before history left apply military dark.\nShort either civil especially whole walk. Example event loss news family big listen.","estimatedTime":"2 weeks"}'

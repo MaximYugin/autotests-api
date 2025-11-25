@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjAyOjI0LjI0NDAwMSIsInVzZXJfaWQiOiI5ZGRjZmNhNi05OTI5LTQxNTctODMxYy01NGUwZTY1ODQ0NzQifQ.vysihrMtFdHXPGXhXGrPNZ7nQNCdiQQ78tWO-0bxh7Q' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rise class piece number.","maxScore":84,"minScore":2,"description":"Tend medical throughout song. Trade himself dark environment investment brother game.\nSeries to whose peace yes. List might suggest option health rate many.","estimatedTime":"8 weeks","previewFileId":"13ec1d63-d151-4c95-9903-d08dc7a65b9f","createdByUserId":"9ddcfca6-9929-4157-831c-54e0e6584474"}'

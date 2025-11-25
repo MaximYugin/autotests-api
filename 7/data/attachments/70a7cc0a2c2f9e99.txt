@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE5OjAyOjIzLjI5MzU2NiIsInVzZXJfaWQiOiIwMWQwOTRlMC0xMjQxLTQxNzUtOTc0OS1iZjhmY2QzNzJjMGMifQ._b_VtZ2JUJhKRMXhquS9Tdwijt-ex5-oVZZkvAF9nL8' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Operation source physical continue either manage production cause.","maxScore":73,"minScore":16,"description":"Fish bit strategy election financial audience say. Feel teacher case clearly gas his. Fly fear performance car building.","estimatedTime":"8 weeks","previewFileId":"82f3face-0a99-4bd2-b3ed-de8126692018","createdByUserId":"01d094e0-1241-4175-9749-bf8fcd372c0c"}'

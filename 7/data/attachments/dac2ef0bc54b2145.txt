@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:courses.py:95 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Light later yet.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 87
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Wall quite often base entire important. Century course those organization energy suddenly growth. Apply each environmental country issue call nothing.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to e5c9f5c5-033d-4c4a-a8b0-531550fe5c7a
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to d9803b0f-bd6a-4339-95aa-215057e3614b
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
