@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjQ2OjE3LjAzODE4MCIsInVzZXJfaWQiOiI5NDBiYTljYi1iMjZkLTQ2NDktYTQ2MS0xOTY4YmFjYzI3MWIifQ.WY7QYDfR1S4p35iAds8uiCSUmcE8Nd6OL1C40adCv3U' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Year see off staff.","courseId":"434a9cda-5c42-41ca-982a-ff846f621130","maxScore":61,"minScore":7,"orderIndex":37,"description":"Follow base item phone range. Up wear though remain shake population. On east happen of back box.\nUs their new art sometimes. Decade learn candidate debate piece place instead investment.","estimatedTime":"5 weeks"}'

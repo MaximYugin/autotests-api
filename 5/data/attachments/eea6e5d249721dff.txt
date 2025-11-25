@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/51a53c7c-80b8-47c6-874e-0e26d46e0006' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjQ2OjE1LjI5ODQ5MiIsInVzZXJfaWQiOiIzYTE1ODlhZS01ZWM2LTQ5OWItYTU0MC0zMGEyZDgxYTcwOTgifQ.w3XxAUopovSWGY2u-hapi4pg30bgEmnd42C4Hemupu4' \
+  -H 'content-length: 260' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recognize fast quite very better.","maxScore":60,"minScore":3,"description":"Contain brother will both type season decade suggest. Never dream way fill national gas. Vote identify deal resource city information difference.","estimatedTime":"1 weeks"}'

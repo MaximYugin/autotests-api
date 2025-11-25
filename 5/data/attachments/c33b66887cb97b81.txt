@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjQ2OjE1Ljg4MjQ1NCIsInVzZXJfaWQiOiJmZTFiOTAzNi0zOTA1LTRhYzUtODk1Yi00YThmNGNmMjgzNjAifQ.__u2HDQ7Ko1use76O8hFGG20Ma_YcVKYR5Q9Vdf3Zrk' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Third authority pull brother.","maxScore":53,"minScore":26,"description":"Case ok hold billion produce yourself. Now eat property able best order. Product movie well something. Land pattern near many evidence science need safe.","estimatedTime":"2 weeks","previewFileId":"d5fb4197-3ffc-458f-9c14-ca5f6b087f8a","createdByUserId":"fe1b9036-3905-4ac5-895b-4a8f4cf28360"}'

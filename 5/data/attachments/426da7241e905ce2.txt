@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjQ2OjE0LjY5NDc4MyIsInVzZXJfaWQiOiI4NjQ1Y2U5Mi1iOWVmLTQ2ODQtYTE0OS1mM2QwNmJkMmI5YWYifQ.5_qJLhd5fJSkVYAE1xBLgxsk4Tr0J2cf3KaAFhFqMkg' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Force administration trip from heart miss.","maxScore":56,"minScore":5,"description":"Understand although blue thing media. Painting station have world technology laugh as.","estimatedTime":"7 weeks","previewFileId":"6fff720b-e22d-40e8-be67-947999152ffa","createdByUserId":"8645ce92-b9ef-4684-a149-f3d06bd2b9af"}'

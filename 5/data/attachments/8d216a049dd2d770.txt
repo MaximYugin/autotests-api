@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjQ2OjE5LjE5NjA5MiIsInVzZXJfaWQiOiIwMGVhYWZmMy0xMzg5LTRjMTYtYjk2NS1mNjZjMzg1YTZjOTAifQ.DnqZUaHs7OznQwuprraVWsocQleVW-SkbAicEcaNSgY' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hard reality stay collection.","maxScore":50,"minScore":22,"description":"Million you rest different. Debate learn process you director. Himself back already maybe.\nInterest ball during contain reach.","estimatedTime":"6 weeks","previewFileId":"04d65240-fc01-4d99-94c5-239c51503fd6","createdByUserId":"00eaaff3-1389-4c16-b965-f66c385a6c90"}'

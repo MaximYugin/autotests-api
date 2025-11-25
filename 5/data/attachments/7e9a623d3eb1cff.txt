@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjQ2OjE4LjIzNDI2NSIsInVzZXJfaWQiOiIzYmY1ZThiOS0xNTM2LTQxMWQtOGI2Ny1lMGE1ZTEwOTk5NjAifQ.ff4Hc1wojxPfd71BS6y3FIDWCeBF6M7dU8cCBU7dNLo' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Produce budget drug so happen bag responsibility challenge.","courseId":"429eede1-f438-4446-aa91-f61a846eeb3b","maxScore":99,"minScore":9,"orderIndex":33,"description":"Ready process with call. North skill current stock anyone. From sound radio reality tend side player. Either forward sing rich middle.","estimatedTime":"8 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjQ2OjE2Ljc2NDMxMiIsInVzZXJfaWQiOiI0YjRmZjNiYy0yMWVjLTRkZjYtYjIzOC0xYjc4NGU3YjI2NWYifQ.WIx0uHoqi1qM1iSymUPg4Pls9qTTSHO3vOTntOBdmEY' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area space side kind central.","maxScore":91,"minScore":25,"description":"Policy control site. That same management crime former production data design. Democrat usually not future trial future. Hear mention media fill.","estimatedTime":"9 weeks","previewFileId":"49f665cd-5fe2-4562-ad1f-b61a80892492","createdByUserId":"4b4ff3bc-21ec-4df6-b238-1b784e7b265f"}'

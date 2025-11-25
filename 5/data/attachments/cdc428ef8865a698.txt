@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjQ2OjE1LjI5ODQ5MiIsInVzZXJfaWQiOiIzYTE1ODlhZS01ZWM2LTQ5OWItYTU0MC0zMGEyZDgxYTcwOTgifQ.w3XxAUopovSWGY2u-hapi4pg30bgEmnd42C4Hemupu4' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"People soldier may cut spring.","maxScore":81,"minScore":20,"description":"Keep loss long project. Model one popular your seat.\nControl whole case theory. Charge bit computer feel accept kind.","estimatedTime":"4 weeks","previewFileId":"4e3fb309-7349-4f3b-857a-387c2bdcb2df","createdByUserId":"3a1589ae-5ec6-499b-a540-30a2d81a7098"}'
