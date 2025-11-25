@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjU0OjMzLjA2MzA2NSIsInVzZXJfaWQiOiJiMTVhOWI0OC1kNWY3LTQ5YmEtYmIzNS1jODM4Yjc1ZTMyZjEifQ.f6sqlgkrwYWKrtphrEThdZQ7uxylTLndoAD6sMB4_Hc' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"A onto example should.","maxScore":96,"minScore":5,"description":"Professor his ahead country source political. Only that commercial.\nSimilar tend over general church almost. Gun recent hundred goal wall others. Relate could late stand tell still.","estimatedTime":"5 weeks","previewFileId":"4c8b2f13-c60e-4464-9ce2-77f17a20bb4a","createdByUserId":"b15a9b48-d5f7-49ba-bb35-c838b75e32f1"}'

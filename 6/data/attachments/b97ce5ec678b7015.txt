@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/22f1ba3c-a3d8-4b84-871a-136cfa31f7a5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjU0OjMyLjQ3MDQ0MSIsInVzZXJfaWQiOiIwY2Q5ZmQxNC0zMzg4LTQ3NzEtOTg0MC00MjFjNjI0YWMyNDkifQ.qXtUbgJSmzw674H0lwkn1QUqSyugzFKUnvnITwkzENE' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Often growth employee walk.","maxScore":62,"minScore":16,"description":"World issue create out offer. Happen pressure affect draw radio. Bill report happy tax.\nParty song event artist. Suddenly him past policy animal good contain.\nLow build relate whether coach phone.","estimatedTime":"7 weeks"}'

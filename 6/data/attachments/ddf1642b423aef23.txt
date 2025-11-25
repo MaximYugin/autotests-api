@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjU0OjM1LjQyNTY0MCIsInVzZXJfaWQiOiJjODA3MzdhZC1mMWZmLTQ2N2ItOGEwOS1mYzI5YTk3ZGYzNWEifQ.c3qbRmTq9OFeopFUrVcWlimB6vsOQiS1TwZ0R5OfdEo' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Standard keep girl indeed set program.","maxScore":51,"minScore":7,"description":"Usually administration career teacher. Could activity third society cover bed. Congress market indeed present thing respond.","estimatedTime":"5 weeks","previewFileId":"cdbf409b-4dea-4dfd-a277-83206ddcaf44","createdByUserId":"c80737ad-f1ff-467b-8a09-fc29a97df35a"}'

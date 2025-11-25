@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjU0OjMxLjgzMDY0NyIsInVzZXJfaWQiOiJjY2I3ZGQ3ZC1jNTZlLTQ4MzUtOGY4My1mZmEyZjhlZDE4NGQifQ.d3GXlqroVUKdBlm-UwpO-Nod-iB6MoQAMQUpQyifVJs' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Result its thus statement.","maxScore":53,"minScore":28,"description":"Increase present radio south. Professor number three while challenge.\nMoment laugh deal rule nearly. Class lose however new project mother cell and. His difficult lead practice whole happy reduce.","estimatedTime":"8 weeks","previewFileId":"2cd01235-7835-4b50-be84-3e6310103f10","createdByUserId":"ccb7dd7d-c56e-4835-8f83-ffa2f8ed184d"}'

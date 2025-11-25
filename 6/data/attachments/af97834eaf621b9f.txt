@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjU0OjMyLjQ3MDQ0MSIsInVzZXJfaWQiOiIwY2Q5ZmQxNC0zMzg4LTQ3NzEtOTg0MC00MjFjNjI0YWMyNDkifQ.qXtUbgJSmzw674H0lwkn1QUqSyugzFKUnvnITwkzENE' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Offer test sea evidence benefit.","maxScore":81,"minScore":11,"description":"War force often worker at. Near population computer across special management serious. Wrong lawyer century start town how cost build.","estimatedTime":"9 weeks","previewFileId":"9d3b123b-98fc-4057-ae25-574e59a4df31","createdByUserId":"0cd9fd14-3388-4771-9840-421c624ac249"}'

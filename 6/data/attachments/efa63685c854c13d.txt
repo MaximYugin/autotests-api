@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI1VDE4OjU0OjM2LjQwMDQ0NiIsInVzZXJfaWQiOiJhN2IyZGY0ZS03MmVjLTQ0NTMtYjJhOS0yMDgyYmVjOTE4ZDcifQ.Ru3yPQvAyyQRLB6pa_CdDncRCGTz7_OM4b_IiovELhM' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seem fast rate yes design who through.","maxScore":57,"minScore":12,"description":"Huge way model scene computer war chance which. Rate wind central water increase security trial.\nAccount far teach. Affect network popular star doctor. Free likely view. Boy our value bag conference.","estimatedTime":"10 weeks","previewFileId":"9ca9def4-ceac-4b72-b035-db7eae9b6534","createdByUserId":"a7b2df4e-72ec-4453-b2a9-2082bec918d7"}'
