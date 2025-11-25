@@ -18,7 +18,7 @@ jobs:
     steps:
       # 1. Шаг, который будет клонировать ваш репозиторий на машину GitHub Actions
       - name: Check out repository
-        uses: actions/checkout@v5  # Используем GitHub Action для клонирования репозитория
+        uses: actions/checkout@v6  # Используем GitHub Action для клонирования репозитория
 
       # 2. Шаг для установки Python на виртуальной машине
       - name: Set up Python
@@ -82,7 +82,7 @@ jobs:
       # Загружаем HTML-отчет как артефакт
       - name: Upload Coverage report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: coverage-report
           path: coverage.html
@@ -90,7 +90,7 @@ jobs:
       # 8. Шаг для загрузки отчета
       - name: Upload Allure results
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: allure-results
           path: allure-results
@@ -103,14 +103,14 @@ jobs:
     steps:
       # 1. Шаг, который будет клонировать репозиторий
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: gh-pages
           path: gh-pages
 
       # 2. Шаг для скачивания отчета
       - name: Download Allure results
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v6
         with:
           name: allure-results
           path: allure-results
