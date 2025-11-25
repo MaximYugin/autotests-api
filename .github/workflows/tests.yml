@@ -56,12 +56,6 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2  # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
 
-      # 8. Шаг для загрузки отчета
-      - name: Upload Allure results
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-results
-          path: allure-results
 
       # Восстанавливаем историю покрытия из кеша
       - name: Restore Coverage history
@@ -93,6 +87,7 @@ jobs:
           name: coverage-report
           path: coverage.html
 
+      # 8. Шаг для загрузки отчета
       - name: Upload Allure results
         if: always()
         uses: actions/upload-artifact@v4
@@ -128,7 +123,7 @@ jobs:
           allure_results: allure-results  # Указываем каталог с результатами тестов
           allure_history: allure-history  # Указываем каталог для истории отчётов Allure
 
-      # 4. Ша г для де плоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
+      # 4. Шаг для де плоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
         if: always()  # Выполняется всегда, независимо от успеха других шагов
         uses: peaceiris/actions-gh-pages@v4  # Используем GitHub Action для публикации отчёта на GitHub Pages
