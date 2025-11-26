@@ -33,6 +33,7 @@ def api():
     return API()
 
 
+
 @allure.story("payments")
 def test_purchase_declined_on_limit(api):
     resp = api.make_purchase(user_id=1, amount=100_000)
