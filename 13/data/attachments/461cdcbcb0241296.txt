@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIyOjM5OjE0LjUxODE2MyIsInVzZXJfaWQiOiI1YmFkNzgzNy0wM2ZkLTQzYjEtOGY2My1mZDk2Mjc2YjU4YTMifQ.7Mv-8e9HCOOC5ilItIiBxgNAEwUE75rSheAwY-KmmGw' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bring score generation yes final none.","maxScore":76,"minScore":17,"description":"As idea high course. Must probably value measure.\nVery season heavy. Bank bill but hour. Understand skin black.\nThree instead oil. Let race cold relationship explain. Successful radio many agree.","estimatedTime":"5 weeks","previewFileId":"ac78e917-6bc9-4a12-b2c1-be80c48ad999","createdByUserId":"5bad7837-03fd-43b1-8f63-fd96276b58a3"}'

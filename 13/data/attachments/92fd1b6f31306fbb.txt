@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIyOjM5OjExLjQwODI3MCIsInVzZXJfaWQiOiIzYzgyOGE3Ni1jZjZjLTRmNTktYmYzMi1lMmZjMmQ5MzlmMjMifQ.hyGiBnOWerbzrFHtjhDdIy8D4arJyx1elUTiSPkgHww' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Language star themselves return special list pretty.","maxScore":68,"minScore":9,"description":"Tree worker example player back. Again however by scene imagine science. Feel space these.\nTotal break suffer face later sport. Simply property anyone.","estimatedTime":"2 weeks","previewFileId":"50352ccd-5d88-4fed-8e98-41e2ca05cbb3","createdByUserId":"3c828a76-cf6c-4f59-bf32-e2fc2d939f23"}'

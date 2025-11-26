@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIyOjM5OjEzLjgzMTI1MCIsInVzZXJfaWQiOiJhMzBjMWJkOC1jMDVlLTQ0MmMtYjQzZC0xNzVmNzNmZjRiZjEifQ.n_hPKfTde--FDCZAtdejgdxyQY60Yon7W_C4DDkeicc' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Near my join that.","courseId":"a2099974-b8c9-4075-969a-cf7d0ad65481","maxScore":95,"minScore":12,"orderIndex":11,"description":"Two way site room miss. Run consumer condition wide. Media might success base.\nEast husband price throughout win. Level write store.","estimatedTime":"9 weeks"}'

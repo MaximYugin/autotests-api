@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIyOjM5OjEyLjAwMDc0NCIsInVzZXJfaWQiOiI5YTVhNjI4YS1jNjA1LTQxMzEtYTZhYS0zMDg4NDhhMjkwNDAifQ.Nj3CGRrCxrmexRfUVi9JoUUp_6vbeAmfKfY5oPBj8Ik' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Report white check interview new add imagine.","maxScore":83,"minScore":28,"description":"Few condition discuss. Away paper person local more speak. Risk guy husband trial structure.\nCause common become avoid worker against.\nPattern bag across behavior. Mind station take herself hour of.","estimatedTime":"2 weeks","previewFileId":"d3dedd2d-1c20-4b1c-b502-81c84fc91772","createdByUserId":"9a5a628a-c605-4131-a6aa-308848a29040"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIyOjM5OjEzLjgzMTI1MCIsInVzZXJfaWQiOiJhMzBjMWJkOC1jMDVlLTQ0MmMtYjQzZC0xNzVmNzNmZjRiZjEifQ.n_hPKfTde--FDCZAtdejgdxyQY60Yon7W_C4DDkeicc' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Too international pressure throughout hard course.","maxScore":81,"minScore":17,"description":"Week place light turn should send bad safe. Old bill drive attorney. Drive several need trip year prove. Responsibility student ago most social front difficult wear.","estimatedTime":"10 weeks","previewFileId":"492419c9-444f-4fde-a182-44055cc31837","createdByUserId":"a30c1bd8-c05e-442c-b43d-175f73ff4bf1"}'

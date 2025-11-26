@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIyOjM5OjE0LjUxODE2MyIsInVzZXJfaWQiOiI1YmFkNzgzNy0wM2ZkLTQzYjEtOGY2My1mZDk2Mjc2YjU4YTMifQ.7Mv-8e9HCOOC5ilItIiBxgNAEwUE75rSheAwY-KmmGw' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mean half among finish learn all task.","courseId":"ac52b6f4-30a3-4b63-951f-6feaf4fd34a9","maxScore":74,"minScore":3,"orderIndex":37,"description":"Pretty guess increase. Government mention evidence. General anything fund worry window. Sound hotel yet woman later.\nRecord rich Republican. Skin south culture song yeah phone until record.","estimatedTime":"4 weeks"}'

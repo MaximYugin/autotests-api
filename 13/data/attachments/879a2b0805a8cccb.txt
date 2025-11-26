@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIyOjM5OjEyLjU5OTI0NyIsInVzZXJfaWQiOiJlNDA4NzM1ZC0zYzAzLTRlZGQtYjljYy1hYmY3ZTA1ZDVmZjUifQ.7fkn4-RcyVqXFPw7j7JdQiTUiXYPqgjSFCz9UfeclEE' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Citizen simple hope join.","courseId":"ba662f92-de75-4e98-b6c4-51207f1ee4ef","maxScore":58,"minScore":5,"orderIndex":83,"description":"Test accept perform ok actually well. Ten pass college ahead light along.\nSome have watch in return without past it. Seem turn scientist scientist. Nature plan body mind option action cold.","estimatedTime":"10 weeks"}'

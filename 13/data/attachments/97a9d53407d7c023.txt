@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIyOjM5OjEzLjI0NDI2OSIsInVzZXJfaWQiOiJkYTU1NjNmMS0wMTAyLTRjZDktYTYxNS1kNWM3ZmQ2YTM4ZjAifQ.DYtei9PW_Lpu7jpUnCvbSA8HlDsBPcljDPCaRJc0lkE' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lay surface suffer whole.","courseId":"f7140f20-4c22-4dff-900d-4f51263a5de8","maxScore":95,"minScore":7,"orderIndex":2,"description":"Environmental firm stuff level movie.\nInside edge reach law middle deep. Call laugh rule issue year evening. Tend both computer mission.","estimatedTime":"4 weeks"}'

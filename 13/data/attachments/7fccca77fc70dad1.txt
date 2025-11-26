@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIyOjM5OjEwLjc1OTU2MSIsInVzZXJfaWQiOiJiMjE2ZGQ5YS0xYjIyLTQ1NGQtOTc5NC0yNTkwODBlZWNiNzAifQ.OzozM20DJYhXA1eKJQvJgB0K7z5Wd78WwDodxn_BVEY' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Choose power police election subject.","maxScore":55,"minScore":26,"description":"Care act own guy remember office. Support entire agreement direction gun. Agent discussion agree course type trouble.","estimatedTime":"9 weeks","previewFileId":"da8b7415-a425-46f8-9667-dc8a992a4ace","createdByUserId":"b216dd9a-1b22-454d-9794-259080eecb70"}'

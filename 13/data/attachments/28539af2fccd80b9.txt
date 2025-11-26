@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIyOjM5OjEzLjI0NDI2OSIsInVzZXJfaWQiOiJkYTU1NjNmMS0wMTAyLTRjZDktYTYxNS1kNWM3ZmQ2YTM4ZjAifQ.DYtei9PW_Lpu7jpUnCvbSA8HlDsBPcljDPCaRJc0lkE' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"They matter opportunity attack ago view safe.","maxScore":51,"minScore":24,"description":"Listen less pressure president.\nBed value throughout fact have stock gun discussion. Not including major plan situation trip not lose.","estimatedTime":"5 weeks","previewFileId":"bb23c1c2-a003-4974-854a-50921050eaf0","createdByUserId":"da5563f1-0102-4cd9-a615-d5c7fd6a38f0"}'
