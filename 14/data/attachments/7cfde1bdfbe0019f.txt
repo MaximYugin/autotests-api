@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIzOjIwOjA0LjUzNDg2MCIsInVzZXJfaWQiOiI4ZDJjYmI5MS1jZGI0LTQ4MzItODhlYi0xZDMzM2NiMTI5ZWYifQ.tCHUT5CuQd85MZOfH2ARf9gksi8BTxfM9wmcrx1gaa4' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Five show prevent employee statement throughout.","maxScore":91,"minScore":3,"description":"Possible stay available today believe want. Draw collection heavy others page.\nHusband recognize media develop charge thousand think.","estimatedTime":"2 weeks","previewFileId":"c85b664f-94be-4fa0-be53-d396f0136fb8","createdByUserId":"8d2cbb91-cdb4-4832-88eb-1d333cb129ef"}'

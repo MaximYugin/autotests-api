@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIzOjIwOjA2LjM1NzkxNSIsInVzZXJfaWQiOiIzODhmZDYzYy1jNzlmLTRiNTYtYmE1NC0wMzVjZGQ5NGY0NzkifQ.VNrRb_380MTzWUUIu3J8SP4S7URMv8DhuWGbpPN6BWQ' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Perform idea they least hair heart leave need.","maxScore":81,"minScore":6,"description":"Newspaper painting debate. Child us us several notice down environment.","estimatedTime":"7 weeks","previewFileId":"2709985b-8b2b-44ac-8203-99f8d6afdbfc","createdByUserId":"388fd63c-c79f-4b56-ba54-035cdd94f479"}'

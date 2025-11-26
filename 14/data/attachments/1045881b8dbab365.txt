@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIzOjIwOjAzLjk0MjI5NiIsInVzZXJfaWQiOiJlYmYzNmUzNy03OGQzLTQxMmMtODQ2OC0yNTZmNzhjNmU5NjMifQ.P4c8KxwNQx9oVDw-ytAG9z7da1JK_l37PuqK4LQmB9Q' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Share budget forget piece single follow less.","courseId":"f1d0f3cb-527c-43fa-aa45-c63a07afa505","maxScore":59,"minScore":16,"orderIndex":60,"description":"Year race water difference.\nRadio someone see each particular wait. Church trade machine stop bit information front.","estimatedTime":"8 weeks"}'

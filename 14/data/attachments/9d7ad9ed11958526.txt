@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIzOjIwOjAzLjM1NjAwNSIsInVzZXJfaWQiOiI1ZTI1MjVlNS02NTczLTRkNTMtOThkNy00ZDM2NjJkMWNlYjAifQ.6fDpjqLgH4scPVXDo7fC0UuXdKkrckkbwsHWKZZxBVc' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Turn simple during food policy maybe suggest.","maxScore":99,"minScore":14,"description":"Would keep central that along under open. Shake into perform image exist.\nLeader friend place most despite. Into computer purpose shake past.","estimatedTime":"1 weeks","previewFileId":"3d5d8848-4ec3-493f-9404-05c8af659383","createdByUserId":"5e2525e5-6573-4d53-98d7-4d3662d1ceb0"}'

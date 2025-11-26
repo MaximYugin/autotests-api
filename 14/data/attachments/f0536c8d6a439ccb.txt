@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIzOjIwOjA1Ljc0ODc5MyIsInVzZXJfaWQiOiIwMjQzYzNhMS04NTEyLTRmN2QtODE2Yy1lYjcwYTAzNTI1NDUifQ.B2NoSfRoNGvoV4ojYUISlecv-VEcvhjgxosciorerzY' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Include manager learn.","maxScore":84,"minScore":25,"description":"World environmental indicate space. Claim forward agree avoid executive meet. Suddenly listen myself space past class success.\nCenter cover protect leader look resource. Source energy need boy may.","estimatedTime":"6 weeks","previewFileId":"14f94b38-0b3d-426c-a8c6-c564ff43982f","createdByUserId":"0243c3a1-8512-4f7d-816c-eb70a0352545"}'

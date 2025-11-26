@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/9cb92938-2879-4406-8b8e-493176073866' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIzOjIwOjA0LjUzNDg2MCIsInVzZXJfaWQiOiI4ZDJjYmI5MS1jZGI0LTQ4MzItODhlYi0xZDMzM2NiMTI5ZWYifQ.tCHUT5CuQd85MZOfH2ARf9gksi8BTxfM9wmcrx1gaa4' \
+  -H 'content-length: 270' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Majority customer free husband.","maxScore":71,"minScore":27,"orderIndex":46,"description":"Necessary nor protect vote attention focus. Last would cell his student. Water person final over red college. Policy former baby in gas out.","estimatedTime":"8 weeks"}'

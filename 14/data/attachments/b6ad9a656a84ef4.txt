@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDIzOjIwOjAyLjcwNzUyNiIsInVzZXJfaWQiOiI5ZTk1MzI0Mi1mODhhLTRkM2EtYWIyYi05OTA1ZDYzZmFiNDEifQ.eRDE7A0egnsRfqXOoFzmErDbHp0EaSwB5kOGGzqHi7E' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nor act we.","maxScore":62,"minScore":16,"description":"Site reality big stop family. Society wish fight necessary pressure. Congress should property court gas husband.","estimatedTime":"1 weeks","previewFileId":"d86980b1-05d0-431e-881d-9ea45329cce3","createdByUserId":"9e953242-f88a-4d3a-ab2b-9905d63fab41"}'
