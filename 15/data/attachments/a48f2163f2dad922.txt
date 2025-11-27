@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQwOjI4LjQ5NzY3OCIsInVzZXJfaWQiOiI2MzU2OGUxOS02ZTYxLTQwY2ItYTI3MS0yZWYyYWE1ZGI1ZDMifQ.uoKY0rT7Tp788i96Pj8F_R8CRtbzaSgXvT8kNFySduQ' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Along piece system future fire information.","courseId":"21353c8c-4f82-4841-b394-ea2690577bfe","maxScore":98,"minScore":27,"orderIndex":65,"description":"Seat group decade line. Play or listen or. It enter election. Indeed partner administration oil impact increase city.\nFall discover learn her power. Number consumer follow right property radio safe.","estimatedTime":"5 weeks"}'

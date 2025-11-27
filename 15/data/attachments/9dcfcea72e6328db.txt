@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQwOjI5LjcyNDYyOCIsInVzZXJfaWQiOiIxZjYyYmU5Yi00YmFiLTQzOTItOTQ2Ny1jZjdmNTg1ZDg0NmQifQ.pVgh8jZjdU3i5pM1QBiMEcJZcuKYy4fwJjPuZBhwZbI' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Financial author product activity point continue.","maxScore":74,"minScore":1,"description":"Have alone ability woman. Real mission process price step where.\nState almost book produce human. General bill within someone employee. Foot successful standard can.","estimatedTime":"10 weeks","previewFileId":"c07f1b50-1147-46fa-b57f-8d8e5c4ed20a","createdByUserId":"1f62be9b-4bab-4392-9467-cf7f585d846d"}'

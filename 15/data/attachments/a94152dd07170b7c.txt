@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQwOjI2LjY5MjYzMCIsInVzZXJfaWQiOiIyNzc1NzhiMC1jNzE2LTQ2NWEtODRkNi1iM2FhNWM2YTRlMmEifQ.7yDJVrcVw_j8XgpKjeFR60L4YiP2wXZIjFcweq9FZbY' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simply draw professional message eight.","maxScore":59,"minScore":26,"description":"Wear court on trip it news moment believe. Purpose board vote industry participant. Happen town language product weight. Past onto start explain.","estimatedTime":"3 weeks","previewFileId":"1053ce18-c0ce-4f6e-bbb2-3ebed47d3792","createdByUserId":"277578b0-c716-465a-84d6-b3aa5c6a4e2a"}'

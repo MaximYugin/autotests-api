@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQwOjI4LjQ5NzY3OCIsInVzZXJfaWQiOiI2MzU2OGUxOS02ZTYxLTQwY2ItYTI3MS0yZWYyYWE1ZGI1ZDMifQ.uoKY0rT7Tp788i96Pj8F_R8CRtbzaSgXvT8kNFySduQ' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Administration perform instead more growth compare.","maxScore":52,"minScore":19,"description":"Friend why check glass owner. Life buy open myself clear. Rate authority wind difficult fish computer.","estimatedTime":"1 weeks","previewFileId":"08a4d06c-b23a-42c8-9f23-31207c1a1869","createdByUserId":"63568e19-6e61-40cb-a271-2ef2aa5db5d3"}'

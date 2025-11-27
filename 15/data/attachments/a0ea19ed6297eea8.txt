@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQwOjI5LjA4OTEwMiIsInVzZXJfaWQiOiIzZjFiZDc1ZS1lMzVkLTQ5MjUtOTk4My02MmVmZmJlM2FhYzIifQ.IHZVelS0vf5tW6kMA7HSk7kZZY4c3rFMj3ClKBu3u_8' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Control song adult find power chair.","maxScore":59,"minScore":2,"description":"Five child under throughout five service practice. Including relationship parent several trip.\nGoal will participant class direction.","estimatedTime":"5 weeks","previewFileId":"dd25ca13-a817-489f-afd0-8233f4bcd0a1","createdByUserId":"3f1bd75e-e35d-4925-9983-62effbe3aac2"}'

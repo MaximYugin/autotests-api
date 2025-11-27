@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQwOjMwLjMzNDEyOSIsInVzZXJfaWQiOiJlMjAzOTRlZS1hYjFhLTQ0ZTctYTVlZC02N2M4ZTcyMGMwMjQifQ.BA0pinPxz9m6gFLdIiKlThKVJk2g8949G08NKobaW0s' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Watch memory way use institution.","maxScore":81,"minScore":8,"description":"Me certain ok role. Plan help piece camera service series total.\nPer dinner site them attention office think. Director do start word care with quite.","estimatedTime":"1 weeks","previewFileId":"0478eef8-cae5-4708-843e-25f2533b2cb9","createdByUserId":"e20394ee-ab1a-44e7-a5ed-67c8e720c024"}'

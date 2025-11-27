@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:courses.py:95 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Executive artist again.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 71
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 11
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to More sometimes growth least remember scientist because. Glass happen because size billion I society.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to 0dcddd71-9d44-43f0-b8b6-5a6bcc223359
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to 33dddd7c-7fcd-4a02-a7bc-b9e4d20f653d
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

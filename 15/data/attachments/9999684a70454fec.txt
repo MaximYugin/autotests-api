@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/12914b45-10c5-486e-9e51-5dd29a831d9e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQwOjI2LjY5MjYzMCIsInVzZXJfaWQiOiIyNzc1NzhiMC1jNzE2LTQ2NWEtODRkNi1iM2FhNWM2YTRlMmEifQ.7yDJVrcVw_j8XgpKjeFR60L4YiP2wXZIjFcweq9FZbY' \
+  -H 'content-length: 251' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seem hope class business space marriage structure.","maxScore":99,"minScore":16,"description":"Pick order others stop begin deep. Bring open enough analysis bill already PM no. Boy line American likely production.","estimatedTime":"6 weeks"}'

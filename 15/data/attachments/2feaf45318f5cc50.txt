@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQwOjI3LjkwNzA1NSIsInVzZXJfaWQiOiJjMjNlZWJlOS00NmIzLTQwMWQtOTk3ZS05ZDMxZDMwOGMxYzkifQ.SqsEPTcfC1XJ5tKdtNznIBsOP6gzKPo-47hIjZ6eAxs' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Any difference approach affect reason.","maxScore":61,"minScore":13,"description":"Take amount science. Laugh per professional. Less change benefit.\nBlue success wife bed. Dog around fly point dog. Area car owner yes.","estimatedTime":"4 weeks","previewFileId":"86e42e02-76a2-4479-b2b3-ac5615f00a3f","createdByUserId":"c23eebe9-46b3-401d-997e-9d31d308c1c9"}'
