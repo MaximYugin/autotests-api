@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQ1OjMzLjIxNzkyMiIsInVzZXJfaWQiOiIyNzMxZmQ3Yi05Y2EzLTRmYmMtYTk4ZC1lZDk1MTliMzFiYmYifQ.cvojMFAhkJDqxcjbuiZto7E6fyS2tXRrGWgSTkejHfA' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hope plant mention do recent.","maxScore":79,"minScore":9,"description":"During open sometimes why material management stuff. Today since produce. Sell the true soon.\nGirl under people value government. Fear act because most. Term win sport method reason number.","estimatedTime":"6 weeks","previewFileId":"74c3fbe8-b6b3-44c3-82b9-b6f17b29c20f","createdByUserId":"2731fd7b-9ca3-4fbc-a98d-ed9519b31bbf"}'

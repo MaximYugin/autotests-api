@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQ1OjMwLjI0MTUxMiIsInVzZXJfaWQiOiIzMDQ1NTA5Yy04OGFiLTRkMzEtYjZkNi0wZDUyMmJhNTFjNjIifQ._B0UVW90ZAzrru-qpOzDNiSnvw9GfNW6Wwd5q9ca7K4' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Billion drug television six approach.","maxScore":90,"minScore":28,"description":"Child important white middle soon just everyone. Heavy myself appear Democrat senior. Value include present whole always. Six cell response perform share from size.","estimatedTime":"1 weeks","previewFileId":"e1bb7125-d3ab-4bdc-b975-f5f1fd4b7a65","createdByUserId":"3045509c-88ab-4d31-b6d6-0d522ba51c62"}'

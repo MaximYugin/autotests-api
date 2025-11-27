@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQ1OjMyLjU4MDg0NiIsInVzZXJfaWQiOiI3MmZiNjdlZS0wMTE0LTQyYzAtYmE3NC02MzQyNjM2N2M4NGIifQ.ji3WRzCuASvg6gL9BWXzs7GUNK7irntY4s-lpn-AyX4' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Talk our day single mouth appear traditional.","maxScore":70,"minScore":13,"description":"Woman special whole oil meeting throughout sea. Executive probably bring send majority.","estimatedTime":"3 weeks","previewFileId":"8fc3b6fe-97cb-4cc8-97dc-685637c83602","createdByUserId":"72fb67ee-0114-42c0-ba74-63426367c84b"}'

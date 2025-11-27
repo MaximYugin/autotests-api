@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQ1OjMxLjQxMTk5NCIsInVzZXJfaWQiOiIxYWE3YTA2My1kMDc1LTRhMjktYTYzMi00MjQ5NmIwYjE0ODAifQ.IkkDmQop93eP_heesKBOqcpJjIzRv69NKN2nkC3FY84' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cause own well catch perform PM toward.","maxScore":98,"minScore":30,"description":"Upon scene subject fine hundred. Hold student best admit choice author.\nRadio can result candidate. Mr ago own image kitchen off.\nDinner practice tend day.","estimatedTime":"9 weeks","previewFileId":"891504fd-1346-4b01-bc04-e1a3d8053f87","createdByUserId":"1aa7a063-d075-4a29-a632-42496b0b1480"}'

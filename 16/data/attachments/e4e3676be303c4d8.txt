@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQ1OjMzLjgzMzI4NSIsInVzZXJfaWQiOiI5ZWVlNzU5Mi0zZTI4LTRkYjAtYjZmYi03MzFlYTkzMmUwYTAifQ.uHkOmGih040bAsU7s9MnzA1KsFHADiXEDilm1uTqz68' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Oil personal address owner write.","maxScore":50,"minScore":5,"description":"Security work student just. Campaign news between trial where. South foreign many house face she month.\nOnly though note floor group level industry.","estimatedTime":"9 weeks","previewFileId":"45157be1-9a73-402b-89ee-b2c887a6d0cd","createdByUserId":"9eee7592-3e28-4db0-b6fb-731ea932e0a0"}'

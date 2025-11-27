@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQ1OjMwLjgzMzk0OSIsInVzZXJfaWQiOiJlNzE0OTFiOS02ODcwLTRiMTYtOWUwOS1iZTg0ZDYwNjg5YTAifQ.dhwDtl_nAzJaE9dPkmgjEmGqEkv2gfETMOafpft_3QM' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Doctor vote follow kitchen need.","maxScore":92,"minScore":4,"description":"Professional sell physical ago nothing. Perhaps budget vote candidate both. Term your loss usually small according. Occur safe with out child recent staff.","estimatedTime":"8 weeks","previewFileId":"761e3d75-43ee-432d-8506-310f97482025","createdByUserId":"e71491b9-6870-4b16-9e09-be84d60689a0"}'

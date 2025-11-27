@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/9ed75c29-16da-48ff-b63e-3195e294c018' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQ1OjMxLjk5NjgyNyIsInVzZXJfaWQiOiI0OTliMzFjMi01YWFkLTQ5YmUtYTZhZS04MGFkZTUyY2U5ZjEifQ.hZp3yRUkgCA70kZPh45n1A4DQgYNuDdzZ7VVCdIcXsM' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Return everybody itself I nor important.","maxScore":98,"minScore":26,"orderIndex":11,"description":"American establish low word teacher share anyone. Modern possible her over involve world.\nDirector large lose each give bad. Deal wish world computer song fine.","estimatedTime":"4 weeks"}'

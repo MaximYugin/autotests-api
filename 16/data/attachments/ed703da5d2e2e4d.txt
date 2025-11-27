@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises/f5c1b5b1-5e02-4b61-a6f3-f063785a404e
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/f5c1b5b1-5e02-4b61-a6f3-f063785a404e
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:66 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to f5c1b5b1-5e02-4b61-a6f3-f063785a404e
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Practice catch project long head general.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 6d13edc4-8acc-4b11-861d-90ae568abd57
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 65
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 12
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 85
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Call response let major. Local particular American learn seven.
+Blue leader major charge ahead range recognize really. Under probably consider challenge hospital team already.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

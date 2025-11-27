@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f94550db-d5f8-49dd-950c-4d1aff153896' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQ1OjMwLjI0MTUxMiIsInVzZXJfaWQiOiIzMDQ1NTA5Yy04OGFiLTRkMzEtYjZkNi0wZDUyMmJhNTFjNjIifQ._B0UVW90ZAzrru-qpOzDNiSnvw9GfNW6Wwd5q9ca7K4' \
+  -H 'content-length: 237' \
+  -H 'content-type: application/json' \
+  -d '{"title":"More religious so environment.","maxScore":75,"minScore":27,"description":"Condition require if economy return. Enter activity feel political clear. Those feel involve. Rather wife last compare send.","estimatedTime":"6 weeks"}'

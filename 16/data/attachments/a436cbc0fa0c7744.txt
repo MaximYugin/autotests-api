@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQ1OjMyLjU4MDg0NiIsInVzZXJfaWQiOiI3MmZiNjdlZS0wMTE0LTQyYzAtYmE3NC02MzQyNjM2N2M4NGIifQ.ji3WRzCuASvg6gL9BWXzs7GUNK7irntY4s-lpn-AyX4' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Practice catch project long head general.","courseId":"6d13edc4-8acc-4b11-861d-90ae568abd57","maxScore":65,"minScore":12,"orderIndex":85,"description":"Call response let major. Local particular American learn seven.\nBlue leader major charge ahead range recognize really. Under probably consider challenge hospital team already.","estimatedTime":"3 weeks"}'

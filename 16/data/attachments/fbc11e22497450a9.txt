@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjQ1OjMxLjk5NjgyNyIsInVzZXJfaWQiOiI0OTliMzFjMi01YWFkLTQ5YmUtYTZhZS04MGFkZTUyY2U5ZjEifQ.hZp3yRUkgCA70kZPh45n1A4DQgYNuDdzZ7VVCdIcXsM' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Night change risk happy.","maxScore":95,"minScore":2,"description":"Become condition ever modern beautiful game week. History democratic example trade condition represent.","estimatedTime":"5 weeks","previewFileId":"43c81a25-5d12-4a1c-8524-cf5545e91eea","createdByUserId":"499b31c2-5aad-49be-a6ae-80ade52ce9f1"}'
