@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/courses?userId=b19ab82b-f297-4f43-a6e6-f370444d43fd
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=b19ab82b-f297-4f43-a6e6-f370444d43fd
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:courses.py:79 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:75 Check that length of "courses" equals to 1
+INFO     COURSE_ASSERTIONS:courses.py:53 Check course
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 89ecaee2-3387-43f6-b246-974f19912831
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Enjoy good dream last recently agree.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 68
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Hand practice including protect bill air blood. Wind camera cover tell hundred. Deep test return memory law four possible capital.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 10 weeks
+INFO     FILES_ASSERTIONS:files.py:42 Check file
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 0938cb8a-8442-42a8-8007-024e617e528e
+INFO     BASE_ASSERTIONS:base.py:36 Check that "url" equals to http://localhost:8000/static/tests/38c79a07-abc3-41ae-8f06-c108e9f7b70d.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "filename" equals to 38c79a07-abc3-41ae-8f06-c108e9f7b70d.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:36 Check user
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to b19ab82b-f297-4f43-a6e6-f370444d43fd
+INFO     BASE_ASSERTIONS:base.py:36 Check that "email" equals to csherman@example.net
+INFO     BASE_ASSERTIONS:base.py:36 Check that "last_name" equals to Dunn
+INFO     BASE_ASSERTIONS:base.py:36 Check that "first_name" equals to Christopher
+INFO     BASE_ASSERTIONS:base.py:36 Check that "middle_name" equals to Katherine
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

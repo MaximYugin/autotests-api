@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1ea6c0a0-9014-45eb-b092-6b8f5459c131' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjMwOjQ2Ljg2NjY2NiIsInVzZXJfaWQiOiIyYTcyZGU4Ny0xODU1LTRhOTgtOGU1Yi1hYWQ4ODU1YjgxY2MifQ.J3qjiJjpz8C1-4ICVEr-w50Gt7nt57knZdpL7t2J-lY' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ok quickly when guy order court total.","maxScore":92,"minScore":2,"description":"Smile involve recently Democrat task audience near star.\nThat around will ever picture low against family. Garden Republican mouth traditional. Believe enough here leg likely police then local.","estimatedTime":"7 weeks"}'

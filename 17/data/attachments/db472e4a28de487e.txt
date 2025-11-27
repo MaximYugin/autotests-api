@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjMwOjQ5LjIzNjc1NSIsInVzZXJfaWQiOiIwNDI0OWEzMy0wZDQ5LTRkZTctOTYxNC00MzRlZmQ5NTgxYTEifQ.ixPldVzh6xtbeyhh4Wpn_F2hxV-SThm9HjqW38rrEag' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Size its suffer cold.","maxScore":95,"minScore":27,"description":"Worry particularly newspaper around generation stuff throw. Artist program education.\nSure firm behavior senior start. Use especially dinner quite order poor. Poor really food room.","estimatedTime":"8 weeks","previewFileId":"8c9b3a1e-c7fb-45da-bea1-8d59c6680b66","createdByUserId":"04249a33-0d49-4de7-9614-434efd9581a1"}'

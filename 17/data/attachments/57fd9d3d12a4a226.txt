@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjMwOjUwLjQ2MTEwOCIsInVzZXJfaWQiOiJjZjE3OTg1NC1jMWMyLTQ1ZTYtODg0Ny0wYzQ1MGYyMzU1MjQifQ.RDgzCAmSqQw1W-8aU4cUafFA_SEU1XceDd0CZtrV-pM' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Do sing member any age above.","maxScore":94,"minScore":21,"description":"War within night role. Hundred oil cold decade woman management. Note science team officer. Financial provide eye our fly.\nMovement pay court PM most game standard. Art trip lead.","estimatedTime":"9 weeks","previewFileId":"3ba35b05-d51f-4007-aa99-67d14d79bddd","createdByUserId":"cf179854-c1c2-45e6-8847-0c450f235524"}'

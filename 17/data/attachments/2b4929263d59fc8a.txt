@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjMwOjQ2Ljg2NjY2NiIsInVzZXJfaWQiOiIyYTcyZGU4Ny0xODU1LTRhOTgtOGU1Yi1hYWQ4ODU1YjgxY2MifQ.J3qjiJjpz8C1-4ICVEr-w50Gt7nt57knZdpL7t2J-lY' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Walk as since production job who approach start.","maxScore":77,"minScore":6,"description":"Behavior appear can woman daughter. Pattern art like course them seven tree. Card sometimes sense issue employee. Listen value big.","estimatedTime":"5 weeks","previewFileId":"ace62fb2-733c-4c6e-8e32-e33d414d00c2","createdByUserId":"2a72de87-1855-4a98-8e5b-aad8855b81cc"}'

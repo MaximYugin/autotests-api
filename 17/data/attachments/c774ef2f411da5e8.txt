@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjMwOjQ3LjE0MDUyMSIsInVzZXJfaWQiOiI0OTRhYzM0Zi1iMmMwLTQ4YjYtOWE2NS0xZTczMWJjZTc3YzkifQ.zOHR6ylJsrrz769rkrezpur0Cou6sOLITMPlB8ajaK8' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Glass national course someone prove point environment fly.","maxScore":100,"minScore":23,"description":"Main different admit thing physical score onto.\nSocial where appear these option. Movement interview truth trial teacher leave. Pm those clear impact them picture purpose.","estimatedTime":"5 weeks","previewFileId":"1a477419-fa5c-40a0-9a49-5ca0de29515f","createdByUserId":"494ac34f-b2c0-48b6-9a65-1e731bce77c9"}'

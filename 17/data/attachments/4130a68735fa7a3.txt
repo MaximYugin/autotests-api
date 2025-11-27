@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises?courseId=413daf80-7bdf-41b5-b4cc-42b4ed7895da
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=413daf80-7bdf-41b5-b4cc-42b4ed7895da
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:110 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:75 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 0535e742-fc2a-4848-b6a5-5997df00114e
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Learn wear any old.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 413daf80-7bdf-41b5-b4cc-42b4ed7895da
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 55
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 78
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Remain senior class customer outside. Style include enjoy.
+Beautiful life position significant article feeling outside. Stuff economic each sound control.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

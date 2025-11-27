@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjMwOjQ4LjA1NDI1MSIsInVzZXJfaWQiOiIwNDUyMGI1ZS03YzU5LTQ5YmUtOGE1Mi00ZGU5MGZhZTI1N2UifQ.-RZ2Qgx_VbGyi9EBRthGj8FD-VEooET8ehMr1oZH380' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Series six sit dog mean page.","maxScore":100,"minScore":14,"description":"Could step by. Production front plan data accept.\nCrime modern conference eight bad customer. Four find your challenge officer laugh space reveal. Other short decision each now above.","estimatedTime":"3 weeks","previewFileId":"d10af8fe-a01c-4f39-9b56-79eef3363117","createdByUserId":"04520b5e-7c59-49be-8a52-4de90fae257e"}'

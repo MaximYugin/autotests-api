@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjMwOjQ5LjUxMDc2NyIsInVzZXJfaWQiOiI1NDAxMWNiNC01MzkzLTQ1OWQtOWI0Ni03YWMwODI0NzU5NjYifQ.eq41jZ8f1mvKdIXNK6roiNDMWxuycqFhqhruaVDzxa0' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Last whatever both big try chance woman.","maxScore":60,"minScore":12,"description":"Section story bank institution nice participant only. Several feeling recognize performance. Long according though contain new support certainly.","estimatedTime":"8 weeks","previewFileId":"c2acc0e9-b3c4-4796-86a8-ced3299364d5","createdByUserId":"54011cb4-5393-459d-9b46-7ac082475966"}'

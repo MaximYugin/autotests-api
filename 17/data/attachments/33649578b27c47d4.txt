@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjMwOjQ1LjcyMDM4NCIsInVzZXJfaWQiOiJiMTlhYjgyYi1mMjk3LTRmNDMtYTZlNi1mMzcwNDQ0ZDQzZmQifQ.K4G_9zfphu3t2O0veyBuWBjHv02Ec5K9Z93TmhkvIQU' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enjoy good dream last recently agree.","maxScore":68,"minScore":29,"description":"Hand practice including protect bill air blood. Wind camera cover tell hundred. Deep test return memory law four possible capital.","estimatedTime":"10 weeks","previewFileId":"0938cb8a-8442-42a8-8007-024e617e528e","createdByUserId":"b19ab82b-f297-4f43-a6e6-f370444d43fd"}'

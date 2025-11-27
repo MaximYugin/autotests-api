@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjMwOjQ4LjMyNjkwOCIsInVzZXJfaWQiOiI0NjhiNDc0ZS0xNmI3LTRiNDQtOWY1Zi1hNWFmODMzNDQ3OWIifQ.Jwh9yt-yUNtwQgTXIfQXe2ky8FEjO63lBUVlV_G0b4s' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Show think everything their begin cover population.","maxScore":84,"minScore":27,"description":"Show scene direction develop state. Commercial wait analysis these same situation fall card.\nAt fine participant husband. Rest her share young peace.","estimatedTime":"9 weeks","previewFileId":"bd264d8b-403a-4773-81d1-b5cfe0d98887","createdByUserId":"468b474e-16b7-4b44-9f5f-a5af8334479b"}'

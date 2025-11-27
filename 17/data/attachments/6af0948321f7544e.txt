@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/00ff7c00-d624-4608-b991-5d7032a94b7c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjMwOjQ4LjMyNjkwOCIsInVzZXJfaWQiOiI0NjhiNDc0ZS0xNmI3LTRiNDQtOWY1Zi1hNWFmODMzNDQ3OWIifQ.Jwh9yt-yUNtwQgTXIfQXe2ky8FEjO63lBUVlV_G0b4s' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Level job light forward let most yard fast.","maxScore":96,"minScore":18,"orderIndex":81,"description":"Spring get rest arrive air. Choose lot issue throughout factor able half.\nYet seem rate move recent data. Size white learn reach.","estimatedTime":"1 weeks"}'
